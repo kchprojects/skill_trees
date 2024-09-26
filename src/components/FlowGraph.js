@@ -65,8 +65,8 @@ function FlowGraph({ setSelectedSkill, goalCompletion, handlePaneClick }) {
           ...node,
           style: {
             ...node.style,
-            backgroundColor: allGoalsCompleted ? 'green' : 'white', // Turn the node green if all goals are completed
-            color: allGoalsCompleted ? 'white' : 'black', // Change the text color to white for better visibility
+            backgroundColor: allGoalsCompleted ? 'green' : '#333333', // Turn the node green if all goals are completed
+            color: '#f0f0f0', // Change the text color to white for better visibility
           },
         };
       })
@@ -113,7 +113,7 @@ function FlowGraph({ setSelectedSkill, goalCompletion, handlePaneClick }) {
         onNodeClick={handleNodeClick}          // Handle single-click event
         onNodeDoubleClick={handleNodeDoubleClick} // Handle double-click event
         onPaneClick={handlePaneClick}          // Handle click on background to hide info
-        style={{ backgroundColor: '#f0f0f0', height: '100%' }}
+        style={{ backgroundColor: '#222229', height: '100%' }}
       />
     </div>
   );

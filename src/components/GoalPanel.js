@@ -9,7 +9,7 @@ function GoalPanel({ selectedSkill, goalCompletion, handleCheckboxChange }) {
     if (!selectedSkill) return null; // If no skill is selected, don't render the panel
 
     return (
-        <div style={{ width: '30%', padding: '10px', borderLeft: '1px solid #ddd', overflowY: 'auto' }}>
+        <div style={{ width: '30%', padding: '10px', borderLeft: '1px solid #ddd', overflowY: 'auto', background:'#333333', color:'#f0f0f0'}}>
             <h3>Skill Description</h3>
             <p>{selectedSkill?.description || 'Click a skill to see its description.'}</p>
             <h4> Lesson </h4>

@@ -1,204 +1,622 @@
+const sharpCrossSpike = {
+    name: "Sharp Cross Spike",
+    description: "Master the sharp cross-court spike, aimed at hitting the ball at a sharp angle toward the sideline, close to the net.",
+    goals: [
+        "Successfully execute 15 sharp cross-court spikes with 90% accuracy during practice.",
+        "Achieve a 90% success rate in sharp cross-court spikes during live games."
+    ],
+    lesson: (
+        <div>
+            <p>
+                The sharp cross-court spike is a powerful and precise attack aimed at landing the ball near the 10-foot (3-meter) line, close to the opponent’s sideline. This attack is often used to take advantage of gaps left by the opposing team's defenders and blockers who may be too slow to cover the sharp angle.
+            </p>
+            <h4>Key Focus Areas:</h4>
+            <ul>
+                <li>
+                    <strong>Approach:</strong> Start with a slightly angled approach toward the setter, allowing your body to rotate mid-air for a sharp swing. Keep your feet light and your steps quick.
+                </li>
+                <li>
+                    <strong>Jump and Body Position:</strong> Jump high with a full arm extension, maintaining control of your body. Position your shoulders and hips to face slightly toward the sideline, allowing for a more natural, controlled swing across your body.
+                </li>
+                <li>
+                    <strong>Arm Swing and Contact:</strong> As you jump, keep your elbow high, and snap your wrist sharply as you hit the ball at its highest point. Aim to contact the ball with your palm while rotating your shoulders, allowing your arm to swing across your body.
+                </li>
+                <li>
+                    <strong>Wrist Snap:</strong> A sharp wrist snap is crucial for generating both power and a steep downward trajectory. Your goal is to aim for a sharp angle between the 10-foot line and the sideline.
+                </li>
+                <li>
+                    <strong>Observation and Decision-Making:</strong> Before your approach, quickly scan the blockers' hands and the positioning of the backcourt defense. Adjust your attack if blockers are positioned poorly or are slow to react, exploiting the sharp cross angle to avoid the block.
+                </li>
+            </ul>
+        </div>
+    ),
+    exercises: [
+        "Set up cones along the 10-foot line and sideline to practice targeting sharp cross-court shots.",
+        "Work with a setter and practice hitting sharp crosses from different positions on the court, focusing on speed and accuracy.",
+        "Engage in partner drills where the blockers deliberately leave gaps for sharp cross-court shots to simulate real game situations."
+    ],
+    subskills: [
+        {
+            name: "Body Positioning and Rotation",
+            description: "Learn how to position your body and rotate during the jump for optimal sharp cross-court spikes.",
+            goals: [
+                "Successfully rotate your body mid-air for sharp cross spikes in 10 consecutive attempts.",
+                "Achieve 95% accuracy in body positioning and shoulder rotation during sharp cross-court drills."
+            ],
+            lesson: (
+                <div>
+                    <p>
+                        For an effective sharp cross spike, your body positioning is key. Approach at an angle and keep your shoulders slightly open to the sideline. As you jump, rotate your upper body while keeping your core stable, allowing you to swing naturally across the ball. This rotation helps you create a sharper angle toward the opponent’s sideline.
+                    </p>
+                </div>
+            ),
+            exercises: [
+                "Perform approach drills with a focus on body rotation, with and without the ball.",
+                "Record yourself during sharp cross-court spikes to analyze body positioning and shoulder rotation."
+            ]
+        },
+        {
+            name: "Wrist Snap and Arm Swing",
+            description: "Master the sharp wrist snap and arm swing necessary for sharp cross-court spikes.",
+            goals: [
+                "Execute 15 consecutive sharp wrist snaps with perfect form.",
+                "Maintain 90% wrist snap accuracy during sharp cross-court spike drills."
+            ],
+            lesson: (
+                <div>
+                    <p>
+                        The wrist snap is the key to a successful sharp cross-court spike. As you hit the ball, keep your wrist loose and snap it sharply downward to generate a steep angle. This motion gives the ball a fast, downward trajectory, making it difficult for defenders to react.
+                    </p>
+                </div>
+            ),
+            exercises: [
+                "Use a wall to practice wrist snaps, focusing on hitting a target with precision.",
+                "Work with a partner to practice sharp wrist snaps in combination with a full arm swing during spikes."
+            ]
+        },
+        {
+            name: "Reading Blockers and Defenders",
+            description: "Learn how to analyze the opponent’s blockers and defenders before executing a sharp cross-court spike.",
+            goals: [
+                "Successfully read blockers and adjust your sharp cross spikes in 8 out of 10 attempts.",
+                "Exploit defensive gaps with sharp cross spikes in 5 consecutive plays."
+            ],
+            lesson: (
+                <div>
+                    <p>
+                        Before your approach, scan the positioning of the blockers. Look for late blockers or those who leave a gap between themselves and the net. Additionally, observe the defenders in the back row to see if they are positioned too far back or covering other angles. Use this information to decide whether the sharp cross is the best option, adjusting your swing accordingly.
+                    </p>
+                </div>
+            ),
+            exercises: [
+                "Run blocking drills where blockers intentionally leave gaps, allowing you to practice hitting around them.",
+                "Use game footage to analyze how top attackers read defenses and adjust their sharp cross-court spikes."
+            ]
+        }
+    ]
+};
+
+const lineSpike = {
+    name: "Line Spike",
+    description: "Master the line spike, a powerful attack aimed straight down the sideline to exploit gaps in the defense.",
+    goals: [
+        "Successfully execute 10 consecutive line spikes during practice without errors.",
+        "Achieve a 90% success rate in line spikes during live games."
+    ],
+    lesson: (
+        <div>
+            <p>
+                The line spike is a precise and powerful attack directed down the sideline, often aimed at catching defenders off guard. This technique is highly effective when the opponent's block does not fully cover the line or when defenders are shifted too far toward the middle of the court.
+            </p>
+            <h4>Key Focus Areas:</h4>
+            <ul>
+                <li>
+                    <strong>Approach:</strong> Approach the ball slightly parallel to the sideline to align your body for the line attack. Maintain a stable base during your final two steps for balance and power generation.
+                </li>
+                <li>
+                    <strong>Jump and Body Positioning:</strong> As you jump, ensure your body remains upright with your shoulders square to the net. Avoid over-rotating, as this can cause you to lose control and accuracy when aiming down the line.
+                </li>
+                <li>
+                    <strong>Arm Swing and Contact:</strong> Keep your elbow high and swing your arm straight down the line. Contact the ball at the highest point, slightly in front of your body, with a quick wrist snap to generate speed and power. Aim the ball between the blocker’s hands or just past their outside hand.
+                </li>
+                <li>
+                    <strong>Observation and Decision-Making:</strong> Before you jump, observe the blocker’s position. If they are slow to close the line or leave a gap, attack the line with power. Watch the defense—if they are positioned too far inside the court, the line becomes a high-reward shot.
+                </li>
+            </ul>
+        </div>
+    ),
+    exercises: [
+        "Set up target zones along the sideline to practice accuracy in hitting line spikes.",
+        "Work with a partner or setter to practice line spikes under different game scenarios, focusing on body positioning and arm swing.",
+        "Simulate blocking scenarios where a defender covers the line late, giving you an opportunity to spike down the sideline."
+    ],
+    subskills: [
+        {
+            name: "Body Positioning for Line Spike",
+            description: "Master your body positioning to effectively spike down the line.",
+            goals: [
+                "Maintain correct body positioning for 15 consecutive line spikes.",
+                "Achieve 90% accuracy in maintaining proper body control during line spike drills."
+            ],
+            lesson: (
+                <div>
+                    <p>
+                        Proper body positioning is crucial for a successful line spike. Approach parallel to the sideline, keep your shoulders square to the net, and maintain an upright posture as you jump. This positioning allows you to execute a powerful and accurate spike down the sideline while keeping control of your shot.
+                    </p>
+                </div>
+            ),
+            exercises: [
+                "Practice line spikes with a focus on maintaining body control throughout the approach and jump.",
+                "Use video analysis to review your body positioning and correct any over-rotation or misalignment during spikes."
+            ]
+        },
+        {
+            name: "Arm Swing and Wrist Snap for Line Spike",
+            description: "Develop the correct arm swing mechanics and wrist snap for maximum power and control.",
+            goals: [
+                "Execute 15 consecutive line spikes with proper arm swing and wrist snap.",
+                "Achieve 90% wrist snap accuracy during line spike drills."
+            ],
+            lesson: (
+                <div>
+                    <p>
+                        The arm swing and wrist snap are key components for a powerful line spike. Keep your elbow high and swing directly down the line. At the point of contact, snap your wrist quickly to generate spin and a steep trajectory. The wrist snap ensures that the ball stays in bounds while maximizing speed.
+                    </p>
+                </div>
+            ),
+            exercises: [
+                "Use a wall to practice wrist snap and arm swing mechanics with a focus on precision.",
+                "Perform partner drills focusing on combining a fast arm swing with a sharp wrist snap to hit the ball straight down the line."
+            ]
+        },
+        {
+            name: "Reading Blockers and Defenders for Line Spike",
+            description: "Learn to read the defense and adjust your line spikes based on the blocker's and defender's positions.",
+            goals: [
+                "Successfully read blockers and adjust your line spikes in 9 out of 10 attempts.",
+                "Exploit defensive gaps with line spikes in 5 consecutive plays."
+            ],
+            lesson: (
+                <div>
+                    <p>
+                        Before executing a line spike, observe the positioning of the blockers and defenders. If the blocker is late or leaves a gap between the net and their hand, attack the line with speed. Also, scan the back-row defense to see if they are too far toward the middle, leaving the sideline open. Quick decision-making is essential to exploiting these gaps effectively.
+                    </p>
+                </div>
+            ),
+            exercises: [
+                "Engage in drills where blockers leave gaps along the line, allowing you to practice spiking into these spaces.",
+                "Use video footage to study how elite players read defenses and adjust their attacks down the line."
+            ]
+        }
+    ]
+};
+
+const offBlockSpike = {
+    name: "Off-the-Block Spike",
+    description: "Master the off-the-block spike, a strategic attack aimed at hitting the ball off the opponent's block to deflect it out of bounds or create another offensive opportunity.",
+    goals: [
+        "Successfully execute 10 consecutive off-the-block spikes during practice without errors.",
+        "Achieve an 85% success rate in off-the-block spikes during live games."
+    ],
+    lesson: (
+        <div>
+            <p>
+                The off-the-block spike is a smart and effective tactic used to turn the opponent's block into an advantage. By intentionally hitting the ball into the blocker's hands, you can cause the ball to deflect out of bounds or back into your court for another offensive opportunity. This technique is especially useful when facing a well-formed block that might be difficult to spike around or over.
+            </p>
+            <h4>Key Focus Areas:</h4>
+            <ul>
+                <li>
+                    <strong>Approach:</strong> Maintain your normal approach as if you were going for a standard spike. The key is to disguise your intent to hit off the block to avoid telegraphing your move.
+                </li>
+                <li>
+                    <strong>Body Positioning:</strong> Position your body to square up to the blocker. Ensure your shoulders are aligned with the blocker’s arms, which will help you aim the ball at their hands.
+                </li>
+                <li>
+                    <strong>Arm Swing and Contact:</strong> Swing with controlled power, focusing on hitting the outer edges of the blocker's hands. Aim to deflect the ball off their fingertips or the outer hand to send it out of bounds or into a playable area for your team.
+                </li>
+                <li>
+                    <strong>Wrist Snap and Aiming:</strong> Use a precise wrist snap to guide the ball off the block. The goal is to brush the ball against the blocker's hands, rather than hitting with full power, ensuring that the ball deflects in your desired direction.
+                </li>
+                <li>
+                    <strong>Observation and Decision-Making:</strong> Quickly assess the positioning of the blockers. If the block is solid and difficult to bypass, or if the blocker is closing late, aim for the hands to deflect the ball. Look for gaps between the blocker's arms and hands, especially on the outside hand.
+                </li>
+            </ul>
+        </div>
+    ),
+    exercises: [
+        "Practice hitting into blockers with a partner simulating different blocking scenarios, focusing on deflecting the ball off their hands.",
+        "Set up drills with a coach or teammate acting as the blocker. Work on hitting the ball off the outer edges of the blocker's hands.",
+        "Simulate live game scenarios where you intentionally hit into a block, aiming to deflect the ball out of bounds or back into your court."
+    ],
+    subskills: [
+        {
+            name: "Body Positioning and Alignment for Off-the-Block Spike",
+            description: "Learn how to position your body to effectively spike off the blocker's hands.",
+            goals: [
+                "Maintain correct body positioning in 15 consecutive off-the-block spikes.",
+                "Achieve 90% accuracy in aligning your body with the blocker's arms during drills."
+            ],
+            lesson: (
+                <div>
+                    <p>
+                        Body positioning is crucial for a successful off-the-block spike. Align your body with the blocker's arms and hands, ensuring your shoulders face the blocker. This positioning helps you control the deflection and ensures the ball will hit the desired part of the block. By keeping your body squared up to the block, you increase your chances of hitting the ball cleanly off the edges of the blocker's hands.
+                    </p>
+                </div>
+            ),
+            exercises: [
+                "Work on approach drills where you practice aligning your body with a simulated block.",
+                "Use video analysis to check your body positioning during off-the-block spikes."
+            ]
+        },
+        {
+            name: "Arm Swing and Wrist Snap for Off-the-Block Spike",
+            description: "Develop the correct arm swing mechanics and wrist snap for hitting off the blocker's hands.",
+            goals: [
+                "Successfully execute 10 consecutive off-the-block spikes with the proper arm swing and wrist snap.",
+                "Maintain 85% accuracy in wrist snap and control during off-the-block spike drills."
+            ],
+            lesson: (
+                <div>
+                    <p>
+                        The arm swing and wrist snap for an off-the-block spike should be controlled rather than full-powered. Your goal is to make a precise, controlled hit that brushes the ball against the blocker's hands. A sharp wrist snap ensures that the ball deflects off the block at the right angle, either out of bounds or back into your court for a controlled play. Aim for the outer edge of the blocker's hand, especially when they're positioned close to the net.
+                    </p>
+                </div>
+            ),
+            exercises: [
+                "Practice hitting into a wall with a focus on controlling your wrist snap to simulate hitting off the blocker's hands.",
+                "Work with a partner or coach to simulate blocking scenarios, focusing on making controlled deflections."
+            ]
+        },
+        {
+            name: "Reading the Block for Off-the-Block Spikes",
+            description: "Learn to quickly assess the block and make smart decisions for hitting off the block.",
+            goals: [
+                "Successfully read and adjust your attack based on the blocker's positioning in 9 out of 10 attempts.",
+                "Exploit gaps in the block by hitting off the edges in 5 consecutive attempts."
+            ],
+            lesson: (
+                <div>
+                    <p>
+                        Reading the block is essential for deciding when to execute an off-the-block spike. Look for blockers who are either late to the block, too close to the net, or have their hands misaligned. These scenarios create opportunities to hit off the outer edge of their hands. Additionally, observe whether the blocker is closing properly—if they leave a gap between their hands or the net, aim for these weak spots to deflect the ball out of bounds or into playable space.
+                    </p>
+                </div>
+            ),
+            exercises: [
+                "Engage in blocking drills where blockers leave intentional gaps, allowing you to practice hitting off their hands.",
+                "Use game footage to study how top attackers read blockers and adjust their spikes to hit off the block."
+            ]
+        }
+    ]
+};
+
+const rollShot = {
+    name: "Roll Shot",
+    description: "Master the roll shot, a controlled attack used to place the ball softly over or around blockers, targeting open spaces in the opponent's defense.",
+    goals: [
+        "Successfully execute 10 consecutive roll shots into target areas during practice without errors.",
+        "Achieve an 85% success rate in roll shots during live games."
+    ],
+    lesson: (
+        <div>
+            <p>
+                The roll shot is a finesse-based attack that requires more control than power. It is often used when a hard spike may not be the best option, especially when facing a strong block or when the defense is expecting a powerful hit. The goal is to generate a soft yet precise shot with topspin that floats over the block and lands in open spaces on the opponent's court.
+            </p>
+            <h4>Key Focus Areas:</h4>
+            <ul>
+                <li>
+                    <strong>Approach:</strong> Your approach should mimic a standard spike, keeping your body position and footwork similar to avoid giving away the roll shot to the defense.
+                </li>
+                <li>
+                    <strong>Jump and Body Position:</strong> As you jump, keep your body relaxed. The jump should be controlled and not as forceful as when spiking. This allows for better placement and control over the ball.
+                </li>
+                <li>
+                    <strong>Arm Swing:</strong> Use a slower, more controlled arm swing than you would for a spike. The arm swing should be smooth, and your hand should remain relaxed, almost like you are pushing the ball with your fingers, rather than hitting it hard.
+                </li>
+                <li>
+                    <strong>Contact and Spin:</strong> Aim to contact the ball with your fingertips or palm, applying light topspin. This helps the ball float and drop quickly, which is particularly effective when targeting spaces just behind the blockers or in the backcourt.
+                </li>
+                <li>
+                    <strong>Observation and Decision-Making:</strong> Before executing the roll shot, scan the opponent’s court for open areas. Common targets are shallow areas just behind the blockers or deep corners where defenders may be out of position. Use the roll shot when blockers are anticipating a hard spike or when the defense is positioned too deep.
+                </li>
+            </ul>
+        </div>
+    ),
+    exercises: [
+        "Practice roll shots by targeting cones or markers placed in key areas of the court (e.g., shallow zones behind the blockers, deep corners).",
+        "Work with a setter to simulate game scenarios, practicing roll shots in place of spikes to refine your control and placement.",
+        "Engage in drills where blockers simulate game situations, focusing on placing the roll shot softly over or around the block into the open court."
+    ]
+};
+
+const spikersVisionAndDecisionMaking = {
+    name: "Spiker's Vision and Decision Making",
+    description: "Develop the ability to read the defense and make smart, quick decisions during attacks based on defensive positioning and block setups. Focus on improving vision during the approach, jump, and spike sequence.",
+    goals: [
+        "Consistently make the correct decision in 10 consecutive attacks during drills.",
+        "Achieve a 90% success rate in reading the defense and adjusting attacks during live games."
+    ],
+    lesson: (
+        <div>
+            <p>
+                A successful spiker relies on more than just physical ability; they must be able to read the defense, observe blockers and defenders, and make quick decisions based on the situation. This process occurs in distinct phases during the approach, jump, and spike. Knowing where to focus your eyes at each moment is crucial for successful decision-making.
+            </p>
+            <h4>Key Vision Phases:</h4>
+            <ul>
+                <li><strong>During the Approach:</strong> As you approach the net, your primary focus should be on observing the blockers. You’re looking for their positioning, alignment, and whether they are preparing to jump. Quickly scan the backcourt defense to check for any shifts in positioning, identifying gaps you can exploit with your attack.</li>
+                <li><strong>During the Jump:</strong> As you take off, continue tracking the blockers to see if they are closing the block or leaving a gap. Shift your focus to the defenders in the back row—check whether they are positioned too deep or too shallow, and adjust your attack based on this information.</li>
+                <li><strong>At the Peak of the Jump:</strong> This is the final moment to decide on your attack. Based on what you see from both blockers and defenders, you’ll choose between a spike, roll shot, tip, or hitting off the block. Your eyes should be scanning for the best gap or weakness to exploit.</li>
+            </ul>
+        </div>
+    ),
+    exercises: [
+        "Practice drills with blockers and defenders adjusting their positions during your approach and jump. Focus on where to look and how to adjust your attack.",
+        "Work with a coach who gives real-time feedback about your decision-making based on the defensive setup.",
+        "Use video analysis to review your attacking sequence and evaluate where your focus was during each phase."
+    ],
+    subskills: [
+        {
+            name: "Reading Blockers in the Approach",
+            description: "Learn how to analyze the blockers during the approach to prepare for the best attack.",
+            goals: [
+                "Successfully read blockers and adjust attacks in 9 out of 10 consecutive drills.",
+                "Attack around, over, or off the block with 90% success during games."
+            ],
+            lesson: (
+                <div>
+                    <p>
+                        <strong>Focus During the Approach:</strong> As you begin your approach, your eyes should be on the blockers. Pay attention to:
+                    </p>
+                    <ul>
+                        <li>Are the blockers well-aligned, or is there a gap between them?</li>
+                        <li>Is the outside blocker slow to react, leaving the line open?</li>
+                        <li>Are both blockers ready to jump, or is one late?</li>
+                    </ul>
+                    <p>
+                        Based on your observations during the approach, start planning how you will attack. If there’s a gap or late block, prepare for a spike or hit around the block. If the block is solid, think about using a roll shot or hitting off the block.
+                    </p>
+                </div>
+            ),
+            exercises: [
+                "Simulate live blocking scenarios with a focus on reading blockers during your approach and making adjustments.",
+                "Work with a coach who provides blockers of varying heights and timing to challenge your decision-making during the approach.",
+                "Use video analysis to check if your eyes are on the blockers during the approach and if you are making correct decisions based on their positioning."
+            ]
+        },
+        {
+            name: "Reading Defenders in the Jump",
+            description: "Learn how to shift focus to the defenders as you take off and adjust your attack based on their positioning.",
+            goals: [
+                "Successfully adjust attacks based on defensive positioning in 8 out of 10 consecutive plays.",
+                "Exploit gaps in the defense with 90% success during practice matches."
+            ],
+            lesson: (
+                <div>
+                    <p>
+                        <strong>Focus During the Jump:</strong> As you rise into the air, your focus should shift from the blockers to the defenders in the back row. Look for:
+                    </p>
+                    <ul>
+                        <li>Are the defenders positioned too deep or too shallow?</li>
+                        <li>Are they covering the line or cross-court, leaving one area more vulnerable?</li>
+                        <li>Is there a gap in the middle of the court between defenders that you can target with a roll shot or tip?</li>
+                    </ul>
+                    <p>
+                        As you observe the defenders during your jump, decide whether to hit hard, place a roll shot into the middle of the court, or tip the ball over the block into the short zones.
+                    </p>
+                </div>
+            ),
+            exercises: [
+                "Run drills where defenders change their positioning mid-play, forcing you to adjust your attack during the jump.",
+                "Work with a coach or partner who calls out defensive changes as you jump, prompting you to make quick decisions.",
+                "Use video analysis to ensure your focus shifts from blockers to defenders during the jump."
+            ]
+        },
+        {
+            name: "Decision Making at the Peak of the Jump",
+            description: "Master the ability to make quick, final decisions at the peak of your jump based on real-time defensive shifts.",
+            goals: [
+                "Make the correct attacking decision 9 out of 10 times during fast-paced drills.",
+                "Successfully adjust your attack mid-air in 80% of attempts during scrimmages."
+            ],
+            lesson: (
+                <div>
+                    <p>
+                        <strong>Focus at the Peak of the Jump:</strong> As you reach the peak of your jump, it’s time to make a quick, final decision. Scan both the blockers and defenders one last time:
+                    </p>
+                    <ul>
+                        <li>Is the block closing late, leaving the line or cross-court open?</li>
+                        <li>Are the defenders out of position, leaving space for a roll shot or tip?</li>
+                        <li>Is the defense waiting for a hard spike, giving you the opportunity to catch them off guard with a softer shot?</li>
+                    </ul>
+                    <p>
+                        Based on these observations, make your final decision about whether to spike, tip, or roll the ball into the open spaces. React quickly, as there’s limited time before you must execute your attack.
+                    </p>
+                </div>
+            ),
+            exercises: [
+                "Run fast-paced decision-making drills where blockers and defenders adjust their positions last-second, forcing you to make a final decision at the peak of your jump.",
+                "Practice adjusting your attack mid-air by working with a setter who delivers unpredictable sets.",
+                "Use video analysis to review your mid-air decisions and determine if you adjusted correctly based on the defense."
+            ]
+        }
+    ]
+};
+
+const physicalConditioningForAttacking = {
+    name: "Physical Conditioning for Attacking",
+    description: "Improve physical conditioning specifically for attacking in volleyball, focusing on strength, movement mechanics, and mobility to enhance performance and prevent injury.",
+    goals: [
+      "Increase jump height by 10% through targeted strength and plyometric training within 8 weeks.",
+      "Improve movement efficiency and quickness to transition from approach to jump with 90% consistency during practice.",
+      "Enhance flexibility and mobility in shoulders, hips, and ankles to reduce injury risk and improve range of motion in attacks."
+    ],
+    lesson: (
+      <div>
+        <p>
+          Physical conditioning is a key element of becoming a powerful and efficient attacker. A strong attacker not only has the ability to generate force but also needs fluid, efficient movement mechanics and flexibility to perform at their best. Focus on strengthening the legs and core for explosive jumps, refining movement mechanics for a quick and stable approach, and improving mobility to allow for a full range of motion during attacks.
+        </p>
+        <h4>Key Areas of Focus:</h4>
+        <ul>
+          <li><strong>Strength Training:</strong> Build leg and core strength to increase jump height and power in spikes. This involves exercises like squats, lunges, and core stability work.</li>
+          <li><strong>Plyometrics:</strong> Use explosive exercises such as box jumps and broad jumps to improve quickness, power, and jump height.</li>
+          <li><strong>Movement Drills:</strong> Enhance agility, footwork, and balance to refine your approach and transition smoothly into the jump for spiking.</li>
+          <li><strong>Mobility and Flexibility:</strong> Focus on stretching and mobility drills for the shoulders, hips, and ankles to maintain flexibility, reduce the risk of injury, and improve range of motion for more powerful and controlled attacks.</li>
+        </ul>
+      </div>
+    ),
+    exercises: [
+      {
+        name: "Strength and Power Exercises",
+        description: "Develop leg, core, and upper body strength to improve jumping power and overall attacking force.",
+        goals: [
+          "Increase leg strength by performing strength exercises 3 times a week for 6 weeks, with a focus on squats, lunges, and deadlifts.",
+          "Improve core stability by performing core exercises daily, including planks and rotational movements, achieving 3-minute plank holds within 6 weeks."
+        ],
+        exercises: [
+          "Perform weighted squats: 4 sets of 8 reps with challenging weight, focusing on explosive upward movement.",
+          "Lunges (with or without weights): 3 sets of 12 reps on each leg to build lower body strength and balance.",
+          "Deadlifts: 3 sets of 6-8 reps to strengthen the posterior chain (hamstrings, glutes, and lower back), improving jump height.",
+          "Core: Plank holds (3 sets of 1 minute each) and rotational core exercises like Russian twists (3 sets of 20 reps)."
+        ]
+      },
+      {
+        name: "Plyometric and Jump Training",
+        description: "Improve explosive power and jumping mechanics to increase vertical height and quickness in your approach and jump.",
+        goals: [
+          "Increase vertical jump height by 10% in 8 weeks through consistent plyometric training.",
+          "Achieve 85% efficiency in transitioning from approach to jump without loss of power during drills."
+        ],
+        exercises: [
+          "Box Jumps: 4 sets of 8 reps, focusing on jumping as high as possible and landing softly.",
+          "Broad Jumps: 3 sets of 6 reps to build explosive horizontal power for better approach speed.",
+          "Single-leg jumps: 3 sets of 10 reps per leg to develop balance and unilateral strength in jumps.",
+          "Depth Jumps: 3 sets of 6 reps to improve reaction time and explosiveness by jumping down from a box and immediately jumping back up."
+        ]
+      },
+      {
+        name: "Movement and Agility Drills",
+        description: "Enhance movement mechanics, footwork, and balance to transition smoothly from approach to jump, improving attacking efficiency.",
+        goals: [
+          "Achieve 90% consistency in footwork and approach drills without hesitation or missteps.",
+          "Increase approach speed by 15% over 6 weeks by refining movement mechanics."
+        ],
+        exercises: [
+          "Agility Ladder Drills: Perform 5 ladder runs focusing on quick, controlled steps to improve footwork in approach.",
+          "Cone Drills: Set up cones in a zig-zag pattern and sprint between them, then transition into an approach and jump for a spike.",
+          "Approach Drills: Perform 3-step or 4-step approach drills repeatedly (4 sets of 10), focusing on smooth transitions from the final step into your jump.",
+          "Balance Drills: Single-leg balance holds for 30 seconds on each leg to improve stability during the jump and landing."
+        ]
+      },
+      {
+        name: "Mobility and Stretching Routine",
+        description: "Improve flexibility in shoulders, hips, and ankles to ensure a full range of motion and prevent injury.",
+        goals: [
+          "Improve shoulder and hip flexibility, achieving full range of motion in overhead movements and leg extensions within 6 weeks.",
+          "Reduce muscle tightness and improve post-exercise recovery with daily stretching routines."
+        ],
+        exercises: [
+          "Dynamic Shoulder Stretch: Arm circles, shoulder dislocations with a resistance band (3 sets of 10), and overhead stretches.",
+          "Hip Flexor Stretch: Perform for 1 minute per side, holding a deep lunge position to stretch the hip flexors and improve mobility.",
+          "Ankle Mobility Drills: Perform ankle rotations (3 sets of 10) and calf stretches against a wall for 1 minute on each side to ensure full mobility for jumping and landing.",
+          "Hamstring Stretch: 1 minute per leg, sitting or standing, to maintain flexibility in the legs and prevent tightness."
+        ]
+      }
+    ]
+  };
+  
+
+
 const expertAttacking = {
     name: "Expert Attacking",
     description: "Master the attacking skills required to be a top-level volleyball attacker.",
     goals: [
-        "Perfect the techniques needed for powerful and accurate attacks.",
-        "Achieve a 90% success rate in executing attack strategies during practice matches."
+        "Achieve a 90% success rate in executing attack strategies during practice matches.",
+        "Successfully use different attack types with 85% effectiveness in games."
     ],
-    lesson: "Attacking is a critical skill in volleyball, requiring a combination of technique, timing, and strategy. Focus on your approach, arm swing, and follow-through to generate power and accuracy in your attacks. Understanding your opponent's defense and adjusting your attacks accordingly will also enhance your effectiveness as an attacker.",
+    lesson: "Attacking in volleyball requires a blend of technique, decision-making, and awareness of the defense. Master various attack types like spikes, tips, and roll shots, while developing the ability to read blockers and defenders. Focus on refining your technique and vision, ensuring you're always aware of the court and defense before executing an attack.",
     exercises: [
-        "Engage in drills focusing on different attacking techniques against blockers.",
-        "Practice hitting to designated zones on the court to improve accuracy."
+        "Practice attacking with a variety of shot types in drills and game-like situations.",
+        "Use video analysis to review your attacks and understand defensive positioning."
     ],
     subskills: [
         {
             name: "Spiking Mastery",
-            description: "Perfect your spiking techniques.",
+            description: "Perfect your spiking techniques in various situations.",
             goals: [
-                "Master spiking in various situations with power and accuracy.",
-                "Achieve an 85% success rate on spikes during practice games."
+                "Master different types of spikes with 85% accuracy in games.",
+                "Perform successful spikes around or off blockers in 15 consecutive plays."
             ],
-            lesson: "Spiking involves a coordinated approach, jump, and arm swing to hit the ball with power. Focus on your timing, body position, and the angle of your attack. Use your legs to generate lift and your arms for force. Practice makes perfect, so consistency is key.",
+            lesson: "Spiking is about power, timing, and precision. Your approach, jump, and arm swing are critical. Keep your elbow high, extend fully, and snap your wrist at the point of contact. Always focus on hitting at the highest point possible. Ensure your body is angled properly to maximize court coverage and always be aware of the blockers’ hands.",
             exercises: [
-                "Drill spiking against a wall to focus on power and control.",
-                "Participate in partner drills to simulate game-like conditions."
+                "Perform spiking drills focusing on hitting over or around blockers.",
+                "Work with a coach to practice spiking from different court positions."
             ],
             subskills: [
                 {
-                    name: "Approach Technique",
-                    description: "Learn how to properly approach the net for an effective spike.",
+                    name: "Cross-Court Spike",
+                    description: "Master the powerful and angled cross-court spike.",
                     goals: [
-                        "Master the three-step approach for spiking with 95% accuracy.",
-                        "Successfully execute 20 spikes using the approach technique without errors."
+                        "Execute 15 consecutive cross-court spikes with 85% accuracy.",
+                        "Achieve a 90% success rate in cross-court spikes during practice matches."
                     ],
-                    lesson: "The three-step approach is essential for effective spiking. Start with a small step to gain momentum, followed by a larger step that positions you for your jump. Ensure you are balanced and focused on the ball during your approach.",
+                    lesson: "The cross-court spike is one of the most effective attacking options. Approach the ball at an angle, ensuring your shoulders are slightly open. Contact the ball at the highest point, and swing across your body while aiming for the far side of the court. Keep your wrist loose for a sharp angle. Look at the blocker’s hand position and aim to spike past or above them.",
                     exercises: [
-                        "Practice the three-step approach without a ball to build muscle memory.",
-                        "Record your approach to analyze form and technique."
-                    ],
-                    subskills: [
-                        {
-                            name: "Footwork Basics",
-                            description: "Learn the fundamentals of footwork for spiking.",
-                            goals: [
-                                "Execute the three-step approach with perfect form 50 times.",
-                                "Maintain proper foot positioning during spiking drills with 100% accuracy."
-                            ],
-                            lesson: "Good footwork is essential for an effective spike. Your feet should be positioned shoulder-width apart, and your approach should be quick and fluid. Focus on maintaining balance and using your legs to propel yourself upward.",
-                            exercises: [
-                                "Set up cones to practice footwork drills and navigate between them.",
-                                "Perform agility ladder drills to enhance your foot speed and coordination."
-                            ]
-                        },
-                        {
-                            name: "Timing and Jump",
-                            description: "Learn the correct timing for your spike approach.",
-                            goals: [
-                                "Jump with proper timing on 15 consecutive spikes with 90% accuracy.",
-                                "Successfully time your approach to hit the ball at its highest point 20 times."
-                            ],
-                            lesson: "Timing is crucial for a successful spike. You should jump as the ball approaches its peak height. Practice jumping and hitting to develop a rhythm between your approach and the ball's trajectory.",
-                            exercises: [
-                                "Work with a partner to practice timing your jump with their toss.",
-                                "Use a jump trainer or resistance bands to improve your jumping technique."
-                            ]
-                        }
+                        "Set up target zones on the far side of the court to practice hitting the angles.",
+                        "Work on cross-court spikes with varied set heights and speeds."
                     ]
                 },
+                lineSpike,
+                sharpCrossSpike,
+                offBlockSpike,
                 {
-                    name: "Arm Swing Mechanics",
-                    description: "Master the correct arm swing mechanics to increase power and control.",
+                    name: "Recycling the Ball",
+                    description: "Master the technique of recycling by using the block to keep the rally alive.",
                     goals: [
-                        "Perform a powerful, controlled arm swing for 20 consecutive spikes.",
-                        "Achieve 90% accuracy in directing spikes during practice."
+                        "Successfully recycle the ball off the block 8 times during practice.",
+                        "Maintain possession 85% of the time through ball recycling during drills."
                     ],
-                    lesson: "The arm swing is a key component of a successful spike. Focus on generating power from your shoulder while keeping your elbow high. Ensure a smooth, fluid motion from the wind-up to the follow-through.",
+                    lesson: "Recycling is a technique where you hit into the block with the goal of resetting the rally, rather than attempting to score outright. Aim to contact the ball softly off the top of the block or the fingertips of blockers, so the ball lands back on your side for another attacking opportunity. This keeps the play alive and provides your team a better chance to regroup.",
                     exercises: [
-                        "Practice arm swing mechanics using a weighted ball to build strength.",
-                        "Engage in shadow swinging drills to enhance muscle memory."
-                    ],
-                    subskills: [
-                        {
-                            name: "Hand Movements",
-                            description: "Focus on hand positioning and movement during a spike.",
-                            goals: [
-                                "Snap your wrist correctly during the spike for 15 consecutive plays.",
-                                "Maintain proper hand control for spiking accuracy in 90% of drills."
-                            ],
-                            lesson: "Proper hand movements are crucial for effective spiking. Use a snapping motion with your wrist to generate spin and control. Maintain a strong grip on the ball throughout the swing.",
-                            exercises: [
-                                "Practice hand movements by hitting against a wall to focus on wrist snap.",
-                                "Work with a partner to practice targeting different areas of the court."
-                            ]
-                        },
-                        {
-                            name: "Full Arm Extension",
-                            description: "Learn to fully extend your arm during spiking for maximum reach and power.",
-                            goals: [
-                                "Spike the ball with full arm extension 25 times in a row.",
-                                "Maintain consistency in arm extension during practice games with 90% accuracy."
-                            ],
-                            lesson: "Full arm extension allows for maximum reach and power in your spike. Focus on extending your arm fully at the point of contact and following through towards your target.",
-                            exercises: [
-                                "Engage in wall drills to practice extending your arm fully during spikes.",
-                                "Set up targets on the court to improve precision with your arm extension."
-                            ]
-                        }
+                        "Practice hitting into the block with the intention of recycling the ball.",
+                        "Engage in team drills focused on recovering from blocked attacks."
                     ]
                 }
             ]
         },
         {
-            name: "Attacking Tactics",
-            description: "Understand and master the tactical elements of volleyball attacking.",
+            name: "Tips and Soft Shots",
+            description: "Learn when and how to use tips, roll shots, and soft shots to surprise the defense.",
             goals: [
-                "Master positioning and decision-making during attacks.",
-                "Successfully execute tactical attacks with an 85% success rate in practice."
+                "Execute 10 successful tips or soft shots into open spaces during drills.",
+                "Achieve an 85% success rate in tips during live games."
             ],
-            lesson: "Attacking tactics involve understanding your opponent's defense and making strategic decisions on how to attack. Focus on reading the court and adjusting your approach based on the positioning of defenders.",
+            lesson: "Tips and roll shots are effective tools to change the rhythm of an attack, often catching the defense off-guard. When tipping, use a soft hand and aim for open spots on the court, like just behind the blockers or short in front of defenders. Roll shots should be delivered with a smooth arm swing, adding a slight spin and targeting deeper areas of the court.",
             exercises: [
-                "Participate in tactical drills focusing on decision-making during attacks.",
-                "Analyze game footage to improve your understanding of attacking strategies."
+                "Work on tips and roll shots with a focus on accuracy and placement.",
+                "Set up target areas on the court to practice hitting soft shots."
             ],
             subskills: [
                 {
-                    name: "Reading the Defense",
-                    description: "Learn how to analyze the defense and choose the best attack.",
+                    name: "Deep Tip",
+                    description: "Master the technique of placing deep tips into open spaces.",
                     goals: [
-                        "Successfully read the opposing team's defense during 5 games.",
-                        "Change your attack based on the defensive positioning 80% of the time."
+                        "Successfully execute 10 deep tips into the back row during drills.",
+                        "Achieve 90% accuracy in deep tips during games."
                     ],
-                    lesson: "Reading the defense is essential for effective attacking. Pay attention to the positioning of blockers and back-row defenders. This will help you identify the best attacking options.",
-                    subskills: [
-                        {
-                            name: "Identifying Weak Defenders",
-                            description: "Learn to spot the weak defenders to target your attack.",
-                            goals: [
-                                "Successfully target weak defenders in 4 games.",
-                                "Track and identify defensive weaknesses during practice drills with 100% accuracy."
-                            ],
-                            lesson: "Identifying weak defenders allows you to exploit gaps in the defense. Focus on observing the defense's positioning and tendencies to find the best targets for your attacks.",
-                            exercises: [
-                                "Participate in drills focusing on targeting weak defenders.",
-                                "Analyze opponents' defensive formations during practice games."
-                            ]
-                        },
-                        {
-                            name: "Attacking Open Spaces",
-                            description: "Learn to hit open spaces based on the defensive setup.",
-                            goals: [
-                                "Place 15 consecutive spikes into open spaces during practice.",
-                                "Adjust attacks to exploit gaps in defense in 85% of attempts."
-                            ],
-                            lesson: "Attacking open spaces requires awareness of the court layout and opponent positioning. Focus on hitting areas where defenders are not present to maximize your scoring opportunities.",
-                            exercises: [
-                                "Practice hitting to designated zones on the court.",
-                                "Engage in situational drills that require targeting open spaces."
-                            ]
-                        }
+                    lesson: "For an effective deep tip, position your fingers around the ball and gently push it towards the back row, aiming for areas where the defenders are not expecting. Keep your fingers firm to control the ball, and make sure your arm swing doesn’t give away the tip too early.",
+                    exercises: [
+                        "Run deep tip drills with a coach calling out open spaces on the court.",
+                        "Simulate game situations where deep tips can be used to disrupt the defense."
                     ]
                 },
-                {
-                    name: "Offensive Decision Making",
-                    description: "Learn when to spike, tip, or use a soft shot.",
-                    goals: [
-                        "Make the correct decision for 15 consecutive attacks during a drill.",
-                        "Execute varied attacks based on defensive formations during a match with 90% accuracy."
-                    ],
-                    lesson: "Offensive decision-making is critical for effective attacking. Learn to assess the situation quickly and choose the best attacking option, whether it's a powerful spike, a strategic tip, or a soft shot.",
-                    subskills: [
-                        {
-                            name: "Choosing Between Power and Finesse",
-                            description: "Learn when to use a powerful spike vs. a finesse shot.",
-                            goals: [
-                                "Make the correct decision between power and finesse in 9 of 10 attacks.",
-                                "Practice choosing finesse shots in 5 different defensive setups."
-                            ],
-                            lesson: "Knowing when to use a powerful spike versus a finesse shot can change the outcome of a play. Assess the situation and choose the most appropriate attack to exploit the defense.",
-                            exercises: [
-                                "Participate in drills where you must choose between power and finesse shots.",
-                                "Analyze game footage to learn from successful attackers."
-                            ]
-                        },
-                        {
-                            name: "Reading Blockers",
-                            description: "Learn to adjust your attack based on the blocking formation.",
-                            goals: [
-                                "Avoid blockers in 8 of 10 consecutive attacks during a drill.",
-                                "Hit around or over blockers 15 times in a game."
-                            ],
-                            lesson: "Reading blockers is essential for effective attacking. Observe their positioning and adjust your attacks to hit around or over them. This adaptability will enhance your scoring opportunities.",
-                            exercises: [
-                                "Practice against a blocking drill to simulate game situations.",
-                                "Engage in drills focusing on hitting over or around blockers."
-                            ]
-                        }
-                    ]
-                }
+                rollShot
             ]
-        }
+        },
+        spikersVisionAndDecisionMaking,
+        physicalConditioningForAttacking
     ]
 };
+
+
 const expertServing = {
     name: "Expert Serving",
     description: "Master the serving skills required to be a top-level volleyball server.",
@@ -705,349 +1123,349 @@ const expertSetting = {
     name: "Expert Setting",
     description: "Master the setting skills required to be a top-level volleyball setter.",
     goals: [
-      "Achieve a setting success rate of 90% during competitive drills.",
-      "Successfully complete 25 accurate sets during practice without errors."
+        "Achieve a setting success rate of 90% during competitive drills.",
+        "Successfully complete 25 accurate sets during practice without errors."
     ],
     lesson: "Setting is a skill that requires precision and strategy. Focus on your hand positioning, body alignment, and timing to achieve effective sets. Good communication with your teammates is crucial for executing successful plays.",
     exercises: [
-      "Practice setting against a wall to focus on accuracy and technique.",
-      "Use a partner to perform setting drills from different angles."
+        "Practice setting against a wall to focus on accuracy and technique.",
+        "Use a partner to perform setting drills from different angles."
     ],
     subskills: [
-      {
-        name: "Hand Setting Mastery",
-        description: "Perfect your hand setting technique.",
-        goals: [
-          "Master hand setting in various situations with 90% accuracy.",
-          "Successfully set to specific targets 20 times without errors."
-        ],
-        lesson: "The key to successful hand setting lies in proper grip and release techniques. Ensure your hands are in a triangle shape and that you push the ball up rather than throwing it. Focus on follow-through and maintaining a consistent release for accurate sets.",
-        exercises: [
-          "Perform hand setting drills to build muscle memory.",
-          "Set with varying ball sizes to improve grip and control."
-        ],
-        subskills: [
-          {
-            name: "Grip and Release",
-            description: "Learn the proper grip and release techniques for setting.",
+        {
+            name: "Hand Setting Mastery",
+            description: "Perfect your hand setting technique.",
             goals: [
-              "Achieve a consistent grip in 15 consecutive sets.",
-              "Maintain a proper release technique with 95% accuracy during practice."
+                "Master hand setting in various situations with 90% accuracy.",
+                "Successfully set to specific targets 20 times without errors."
             ],
-            lesson: "Your grip should be firm yet relaxed to allow for control during the release. Make sure to catch the ball above your head and push it upward with your fingers, following through in the direction of the target.",
+            lesson: "The key to successful hand setting lies in proper grip and release techniques. Ensure your hands are in a triangle shape and that you push the ball up rather than throwing it. Focus on follow-through and maintaining a consistent release for accurate sets.",
             exercises: [
-              "Record your sets to analyze grip and release techniques.",
-              "Practice with a variety of balls to find your optimal grip."
+                "Perform hand setting drills to build muscle memory.",
+                "Set with varying ball sizes to improve grip and control."
             ],
             subskills: [
-              {
-                name: "Finger Flexibility",
-                description: "Master finger flexibility for better ball control.",
-                goals: [
-                  "Demonstrate finger flexibility during 15 sets with 100% accuracy.",
-                  "Maintain consistent touch during practice drills with 90% accuracy."
-                ],
-                lesson: "Finger flexibility is crucial for effective setting. Work on exercises that promote finger strength and flexibility, such as using a stress ball or performing finger stretches.",
-                exercises: [
-                  "Incorporate finger-strengthening exercises into your routine.",
-                  "Practice setting drills that focus on finger placement and control."
-                ]
-              },
-              {
-                name: "Follow-Through Motion",
-                description: "Learn the importance of follow-through in setting.",
-                goals: [
-                  "Achieve proper follow-through in 25 consecutive sets.",
-                  "Ensure consistency in follow-through during practice matches with 90% accuracy."
-                ],
-                lesson: "Your follow-through motion impacts the accuracy and power of your sets. After contacting the ball, allow your arms to extend towards the target.",
-                exercises: [
-                  "Perform follow-through drills focusing on arm extension.",
-                  "Set against a wall while focusing on follow-through mechanics."
-                ]
-              }
+                {
+                    name: "Grip and Release",
+                    description: "Learn the proper grip and release techniques for setting.",
+                    goals: [
+                        "Achieve a consistent grip in 15 consecutive sets.",
+                        "Maintain a proper release technique with 95% accuracy during practice."
+                    ],
+                    lesson: "Your grip should be firm yet relaxed to allow for control during the release. Make sure to catch the ball above your head and push it upward with your fingers, following through in the direction of the target.",
+                    exercises: [
+                        "Record your sets to analyze grip and release techniques.",
+                        "Practice with a variety of balls to find your optimal grip."
+                    ],
+                    subskills: [
+                        {
+                            name: "Finger Flexibility",
+                            description: "Master finger flexibility for better ball control.",
+                            goals: [
+                                "Demonstrate finger flexibility during 15 sets with 100% accuracy.",
+                                "Maintain consistent touch during practice drills with 90% accuracy."
+                            ],
+                            lesson: "Finger flexibility is crucial for effective setting. Work on exercises that promote finger strength and flexibility, such as using a stress ball or performing finger stretches.",
+                            exercises: [
+                                "Incorporate finger-strengthening exercises into your routine.",
+                                "Practice setting drills that focus on finger placement and control."
+                            ]
+                        },
+                        {
+                            name: "Follow-Through Motion",
+                            description: "Learn the importance of follow-through in setting.",
+                            goals: [
+                                "Achieve proper follow-through in 25 consecutive sets.",
+                                "Ensure consistency in follow-through during practice matches with 90% accuracy."
+                            ],
+                            lesson: "Your follow-through motion impacts the accuracy and power of your sets. After contacting the ball, allow your arms to extend towards the target.",
+                            exercises: [
+                                "Perform follow-through drills focusing on arm extension.",
+                                "Set against a wall while focusing on follow-through mechanics."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "Height Adjustment",
+                    description: "Learn to adjust setting height based on attacker needs.",
+                    goals: [
+                        "Successfully adjust setting height in 5 practice scenarios with 100% accuracy.",
+                        "Maintain consistency in height adjustment during drills with 90% accuracy."
+                    ],
+                    lesson: "Adjusting the height of your sets is essential for accommodating different attackers. Pay attention to their preferences and adjust your sets accordingly.",
+                    exercises: [
+                        "Practice setting to varying heights in drills with partners.",
+                        "Simulate game situations to practice adjusting set heights."
+                    ],
+                    subskills: [
+                        {
+                            name: "Reading Attackers",
+                            description: "Learn to read attackers for optimal setting.",
+                            goals: [
+                                "Identify attacker needs during 5 games with 90% accuracy.",
+                                "Successfully set based on attacker positioning 80% of the time."
+                            ],
+                            lesson: "Reading your attackers involves understanding their preferences and positioning. Always communicate with your teammates to determine their needs.",
+                            exercises: [
+                                "Work on drills where attackers specify their set preferences.",
+                                "Watch game footage to analyze setter and attacker interactions."
+                            ]
+                        },
+                        {
+                            name: "Timing the Set",
+                            description: "Learn the importance of timing in setting.",
+                            goals: [
+                                "Achieve perfect timing in 15 consecutive sets with 90% accuracy.",
+                                "Maintain timing consistency during practice with minimal errors."
+                            ],
+                            lesson: "Timing is essential in setting. Work on synchronizing your sets with your attackers' movements. Practice setting at different speeds and angles.",
+                            exercises: [
+                                "Run drills focusing on timing with specific attackers.",
+                                "Set in a fast-paced environment to improve reaction times."
+                            ]
+                        }
+                    ]
+                }
             ]
-          },
-          {
-            name: "Height Adjustment",
-            description: "Learn to adjust setting height based on attacker needs.",
+        },
+        {
+            name: "Setting Techniques",
+            description: "Master different types of sets and their appropriate uses.",
             goals: [
-              "Successfully adjust setting height in 5 practice scenarios with 100% accuracy.",
-              "Maintain consistency in height adjustment during drills with 90% accuracy."
+                "Successfully execute 20 different types of sets during practice.",
+                "Achieve 90% accuracy in choosing the right set type for each situation."
             ],
-            lesson: "Adjusting the height of your sets is essential for accommodating different attackers. Pay attention to their preferences and adjust your sets accordingly.",
+            lesson: "Different situations call for different types of sets. Understanding when to use a high set, quick set, or back-row set can make a significant impact on your team's offensive effectiveness.",
             exercises: [
-              "Practice setting to varying heights in drills with partners.",
-              "Simulate game situations to practice adjusting set heights."
+                "Practice various setting techniques with a partner.",
+                "Engage in situational drills to improve decision-making on set types."
             ],
             subskills: [
-              {
-                name: "Reading Attackers",
-                description: "Learn to read attackers for optimal setting.",
-                goals: [
-                  "Identify attacker needs during 5 games with 90% accuracy.",
-                  "Successfully set based on attacker positioning 80% of the time."
-                ],
-                lesson: "Reading your attackers involves understanding their preferences and positioning. Always communicate with your teammates to determine their needs.",
-                exercises: [
-                  "Work on drills where attackers specify their set preferences.",
-                  "Watch game footage to analyze setter and attacker interactions."
-                ]
-              },
-              {
-                name: "Timing the Set",
-                description: "Learn the importance of timing in setting.",
-                goals: [
-                  "Achieve perfect timing in 15 consecutive sets with 90% accuracy.",
-                  "Maintain timing consistency during practice with minimal errors."
-                ],
-                lesson: "Timing is essential in setting. Work on synchronizing your sets with your attackers' movements. Practice setting at different speeds and angles.",
-                exercises: [
-                  "Run drills focusing on timing with specific attackers.",
-                  "Set in a fast-paced environment to improve reaction times."
-                ]
-              }
+                {
+                    name: "High Set",
+                    description: "Learn to deliver high sets for outside hitters.",
+                    goals: [
+                        "Successfully complete 15 high sets in practice with 100% accuracy.",
+                        "Use high sets effectively during game simulations."
+                    ],
+                    lesson: "High sets allow attackers to hit the ball at their highest point. Ensure your follow-through is directed upward to maximize height and accuracy.",
+                    exercises: [
+                        "Drill high sets with a partner focusing on precision.",
+                        "Engage in high set practice while moving around the court."
+                    ]
+                },
+                {
+                    name: "Quick Set",
+                    description: "Master the technique for quick sets to middle blockers.",
+                    goals: [
+                        "Achieve a 90% success rate on quick sets during drills.",
+                        "Successfully execute quick sets in fast-paced game situations 10 times."
+                    ],
+                    lesson: "Quick sets are essential for catching the defense off guard. The ball should be set just above the net for middle attackers. Timing is critical, so practice working with your attackers to develop chemistry.",
+                    exercises: [
+                        "Run drills that focus on quick sets with middle attackers.",
+                        "Participate in scrimmages to practice quick sets in real-time."
+                    ]
+                },
+                {
+                    name: "Back-Row Set",
+                    description: "Learn to execute back-row sets for back-row attackers.",
+                    goals: [
+                        "Successfully complete 15 back-row sets in practice with 100% accuracy.",
+                        "Utilize back-row sets effectively during match simulations."
+                    ],
+                    lesson: "Back-row sets require good timing and accuracy to allow the back-row hitter to attack effectively. Ensure the ball is set at the right height and angle for the back-row hitter to connect smoothly.",
+                    exercises: [
+                        "Practice back-row sets with designated back-row attackers.",
+                        "Engage in situational drills that involve back-row attacks."
+                    ]
+                }
             ]
-          }
-        ]
-      },
-      {
-        name: "Setting Techniques",
-        description: "Master different types of sets and their appropriate uses.",
-        goals: [
-          "Successfully execute 20 different types of sets during practice.",
-          "Achieve 90% accuracy in choosing the right set type for each situation."
-        ],
-        lesson: "Different situations call for different types of sets. Understanding when to use a high set, quick set, or back-row set can make a significant impact on your team's offensive effectiveness.",
-        exercises: [
-          "Practice various setting techniques with a partner.",
-          "Engage in situational drills to improve decision-making on set types."
-        ],
-        subskills: [
-          {
-            name: "High Set",
-            description: "Learn to deliver high sets for outside hitters.",
+        },
+        {
+            name: "Tactical Setting",
+            description: "Understand the tactical elements of setting for effective play.",
             goals: [
-              "Successfully complete 15 high sets in practice with 100% accuracy.",
-              "Use high sets effectively during game simulations."
+                "Achieve a setting success rate of 90% based on tactical analysis during practice.",
+                "Implement strategic setting decisions during 5 practice matches with 100% communication."
             ],
-            lesson: "High sets allow attackers to hit the ball at their highest point. Ensure your follow-through is directed upward to maximize height and accuracy.",
+            lesson: "Tactical setting involves understanding when and how to set based on the opposing team's weaknesses. Use your knowledge of the game to select the most effective set for each situation.",
             exercises: [
-              "Drill high sets with a partner focusing on precision.",
-              "Engage in high set practice while moving around the court."
-            ]
-          },
-          {
-            name: "Quick Set",
-            description: "Master the technique for quick sets to middle blockers.",
-            goals: [
-              "Achieve a 90% success rate on quick sets during drills.",
-              "Successfully execute quick sets in fast-paced game situations 10 times."
+                "Participate in tactical drills focusing on setting strategies.",
+                "Analyze video footage of opponents to identify setting opportunities."
             ],
-            lesson: "Quick sets are essential for catching the defense off guard. The ball should be set just above the net for middle attackers. Timing is critical, so practice working with your attackers to develop chemistry.",
-            exercises: [
-              "Run drills that focus on quick sets with middle attackers.",
-              "Participate in scrimmages to practice quick sets in real-time."
+            subskills: [
+                {
+                    name: "Analyzing Opponent Formations",
+                    description: "Learn to analyze the opponent's formation for setting strategies.",
+                    goals: [
+                        "Identify setting opportunities based on opponent formations during 5 games.",
+                        "Successfully adjust setting strategy based on opponent weaknesses with 90% accuracy."
+                    ],
+                    lesson: "Understanding your opponent's formation is crucial for selecting the right set. Observe their positioning to identify potential gaps to exploit.",
+                    exercises: [
+                        "Watch game footage to analyze opponent formations.",
+                        "Discuss setting strategies with teammates based on observed formations."
+                    ]
+                },
+                {
+                    name: "Communicating with Teammates",
+                    description: "Learn to communicate effectively with teammates for strategic setting.",
+                    goals: [
+                        "Achieve 100% communication with teammates regarding setting strategies during practice.",
+                        "Successfully implement team-setting strategies in 5 matches."
+                    ],
+                    lesson: "Effective communication is key to implementing setting strategies. Use verbal and non-verbal cues to ensure your teammates are aligned with your setting plan.",
+                    exercises: [
+                        "Participate in team drills that emphasize communication.",
+                        "Use hand signals to enhance non-verbal communication during practice."
+                    ]
+                }
             ]
-          },
-          {
-            name: "Back-Row Set",
-            description: "Learn to execute back-row sets for back-row attackers.",
-            goals: [
-              "Successfully complete 15 back-row sets in practice with 100% accuracy.",
-              "Utilize back-row sets effectively during match simulations."
-            ],
-            lesson: "Back-row sets require good timing and accuracy to allow the back-row hitter to attack effectively. Ensure the ball is set at the right height and angle for the back-row hitter to connect smoothly.",
-            exercises: [
-              "Practice back-row sets with designated back-row attackers.",
-              "Engage in situational drills that involve back-row attacks."
-            ]
-          }
-        ]
-      },
-      {
-        name: "Tactical Setting",
-        description: "Understand the tactical elements of setting for effective play.",
-        goals: [
-          "Achieve a setting success rate of 90% based on tactical analysis during practice.",
-          "Implement strategic setting decisions during 5 practice matches with 100% communication."
-        ],
-        lesson: "Tactical setting involves understanding when and how to set based on the opposing team's weaknesses. Use your knowledge of the game to select the most effective set for each situation.",
-        exercises: [
-          "Participate in tactical drills focusing on setting strategies.",
-          "Analyze video footage of opponents to identify setting opportunities."
-        ],
-        subskills: [
-          {
-            name: "Analyzing Opponent Formations",
-            description: "Learn to analyze the opponent's formation for setting strategies.",
-            goals: [
-              "Identify setting opportunities based on opponent formations during 5 games.",
-              "Successfully adjust setting strategy based on opponent weaknesses with 90% accuracy."
-            ],
-            lesson: "Understanding your opponent's formation is crucial for selecting the right set. Observe their positioning to identify potential gaps to exploit.",
-            exercises: [
-              "Watch game footage to analyze opponent formations.",
-              "Discuss setting strategies with teammates based on observed formations."
-            ]
-          },
-          {
-            name: "Communicating with Teammates",
-            description: "Learn to communicate effectively with teammates for strategic setting.",
-            goals: [
-              "Achieve 100% communication with teammates regarding setting strategies during practice.",
-              "Successfully implement team-setting strategies in 5 matches."
-            ],
-            lesson: "Effective communication is key to implementing setting strategies. Use verbal and non-verbal cues to ensure your teammates are aligned with your setting plan.",
-            exercises: [
-              "Participate in team drills that emphasize communication.",
-              "Use hand signals to enhance non-verbal communication during practice."
-            ]
-          }
-        ]
-      }
+        }
     ]
-  };
-  
-  const expertGameTactics = {
+};
+
+const expertGameTactics = {
     name: "Expert Game Tactics",
     description: "Master the tactical elements of volleyball to outsmart opponents and maximize team performance.",
     goals: [
-      "Demonstrate a strategic understanding of game situations with 90% accuracy during practice.",
-      "Effectively implement tactical adjustments in 5 practice matches."
+        "Demonstrate a strategic understanding of game situations with 90% accuracy during practice.",
+        "Effectively implement tactical adjustments in 5 practice matches."
     ],
     lesson: "Understanding game tactics is crucial for both individual and team success. This involves recognizing patterns in the opponent's play, adjusting your strategies accordingly, and making informed decisions during the game.",
     exercises: [
-      "Analyze video footage of past games to identify tactical opportunities.",
-      "Participate in strategy discussions with teammates before and after matches."
+        "Analyze video footage of past games to identify tactical opportunities.",
+        "Participate in strategy discussions with teammates before and after matches."
     ],
     subskills: [
-      {
-        name: "Reading the Game",
-        description: "Learn to analyze the flow of the game and anticipate opponents' moves.",
-        goals: [
-          "Successfully predict opponents' plays in 5 consecutive games.",
-          "Adjust your positioning based on game flow with 90% accuracy."
-        ],
-        lesson: "Reading the game involves observing player movements, formations, and the ball's trajectory. This awareness allows you to anticipate plays and react quickly.",
-        exercises: [
-          "Engage in drills that simulate game situations to improve reading skills.",
-          "Watch live games and analyze players' movements and decisions."
-        ],
-        subskills: [
-          {
-            name: "Opponent Analysis",
-            description: "Study the strengths and weaknesses of opposing players and teams.",
+        {
+            name: "Reading the Game",
+            description: "Learn to analyze the flow of the game and anticipate opponents' moves.",
             goals: [
-              "Identify at least 3 key weaknesses of each opponent before matches.",
-              "Adjust your play based on opponent analysis in 90% of practice matches."
+                "Successfully predict opponents' plays in 5 consecutive games.",
+                "Adjust your positioning based on game flow with 90% accuracy."
             ],
-            lesson: "Understanding your opponent's capabilities allows you to exploit their weaknesses. Pay attention to player tendencies, preferred plays, and defensive structures.",
+            lesson: "Reading the game involves observing player movements, formations, and the ball's trajectory. This awareness allows you to anticipate plays and react quickly.",
             exercises: [
-              "Create scouting reports for upcoming teams based on past performances.",
-              "Discuss tactics with teammates focused on opponent analysis."
+                "Engage in drills that simulate game situations to improve reading skills.",
+                "Watch live games and analyze players' movements and decisions."
+            ],
+            subskills: [
+                {
+                    name: "Opponent Analysis",
+                    description: "Study the strengths and weaknesses of opposing players and teams.",
+                    goals: [
+                        "Identify at least 3 key weaknesses of each opponent before matches.",
+                        "Adjust your play based on opponent analysis in 90% of practice matches."
+                    ],
+                    lesson: "Understanding your opponent's capabilities allows you to exploit their weaknesses. Pay attention to player tendencies, preferred plays, and defensive structures.",
+                    exercises: [
+                        "Create scouting reports for upcoming teams based on past performances.",
+                        "Discuss tactics with teammates focused on opponent analysis."
+                    ]
+                },
+                {
+                    name: "Situational Awareness",
+                    description: "Develop an understanding of how to respond to different game scenarios.",
+                    goals: [
+                        "Make strategic decisions based on game situations with 90% effectiveness.",
+                        "Successfully execute tactical adjustments in 5 different match scenarios."
+                    ],
+                    lesson: "Situational awareness involves recognizing the context of the game, such as the score, time remaining, and the strengths of both your team and the opponents. Use this information to make informed decisions.",
+                    exercises: [
+                        "Participate in scrimmages that simulate various game situations.",
+                        "Work with a coach to develop strategies for different scenarios."
+                    ]
+                }
             ]
-          },
-          {
-            name: "Situational Awareness",
-            description: "Develop an understanding of how to respond to different game scenarios.",
+        },
+        {
+            name: "Offensive Strategies",
+            description: "Master different offensive plays and formations to create scoring opportunities.",
             goals: [
-              "Make strategic decisions based on game situations with 90% effectiveness.",
-              "Successfully execute tactical adjustments in 5 different match scenarios."
+                "Successfully implement 5 different offensive strategies during matches.",
+                "Achieve a scoring success rate of 85% using offensive tactics."
             ],
-            lesson: "Situational awareness involves recognizing the context of the game, such as the score, time remaining, and the strengths of both your team and the opponents. Use this information to make informed decisions.",
+            lesson: "Effective offensive strategies are essential for outsmarting the opponent. Understand how to utilize various formations and plays to create opportunities for your hitters.",
             exercises: [
-              "Participate in scrimmages that simulate various game situations.",
-              "Work with a coach to develop strategies for different scenarios."
+                "Run drills focusing on specific offensive plays and formations.",
+                "Analyze successful offensive plays from past games."
+            ],
+            subskills: [
+                {
+                    name: "Formation Strategies",
+                    description: "Learn to use different formations to enhance offensive effectiveness.",
+                    goals: [
+                        "Implement at least 3 different formations in practice matches.",
+                        "Achieve a scoring success rate of 90% while using varied formations."
+                    ],
+                    lesson: "Different formations can provide advantages based on the opponents’ defensive setup. Experiment with various formations to see which works best for your team.",
+                    exercises: [
+                        "Practice switching between formations during drills.",
+                        "Create formation charts to visualize strategies."
+                    ]
+                },
+                {
+                    name: "Play Calling",
+                    description: "Develop the ability to call plays effectively during games.",
+                    goals: [
+                        "Successfully call plays in 90% of practice matches.",
+                        "Ensure all teammates understand and execute called plays effectively."
+                    ],
+                    lesson: "Play calling requires quick thinking and clear communication. Ensure that all players understand the terminology and their roles within the play.",
+                    exercises: [
+                        "Practice calling plays during scrimmages.",
+                        "Discuss play calling strategies with your team."
+                    ]
+                }
             ]
-          }
-        ]
-      },
-      {
-        name: "Offensive Strategies",
-        description: "Master different offensive plays and formations to create scoring opportunities.",
-        goals: [
-          "Successfully implement 5 different offensive strategies during matches.",
-          "Achieve a scoring success rate of 85% using offensive tactics."
-        ],
-        lesson: "Effective offensive strategies are essential for outsmarting the opponent. Understand how to utilize various formations and plays to create opportunities for your hitters.",
-        exercises: [
-          "Run drills focusing on specific offensive plays and formations.",
-          "Analyze successful offensive plays from past games."
-        ],
-        subskills: [
-          {
-            name: "Formation Strategies",
-            description: "Learn to use different formations to enhance offensive effectiveness.",
+        },
+        {
+            name: "Defensive Strategies",
+            description: "Understand defensive tactics to counter opponents effectively.",
             goals: [
-              "Implement at least 3 different formations in practice matches.",
-              "Achieve a scoring success rate of 90% while using varied formations."
+                "Successfully implement 5 different defensive strategies during matches.",
+                "Achieve a defensive success rate of 85% against opponent attacks."
             ],
-            lesson: "Different formations can provide advantages based on the opponents’ defensive setup. Experiment with various formations to see which works best for your team.",
+            lesson: "Defensive strategies are essential for stopping the opponent's attacks. Understanding how to position yourself and your teammates is critical for successful defense.",
             exercises: [
-              "Practice switching between formations during drills.",
-              "Create formation charts to visualize strategies."
-            ]
-          },
-          {
-            name: "Play Calling",
-            description: "Develop the ability to call plays effectively during games.",
-            goals: [
-              "Successfully call plays in 90% of practice matches.",
-              "Ensure all teammates understand and execute called plays effectively."
+                "Engage in defensive drills that focus on positioning and teamwork.",
+                "Analyze opponents' attacks to develop effective defensive responses."
             ],
-            lesson: "Play calling requires quick thinking and clear communication. Ensure that all players understand the terminology and their roles within the play.",
-            exercises: [
-              "Practice calling plays during scrimmages.",
-              "Discuss play calling strategies with your team."
+            subskills: [
+                {
+                    name: "Blocking Techniques",
+                    description: "Master the techniques of effective blocking to prevent attacks.",
+                    goals: [
+                        "Achieve a blocking success rate of 75% during practice.",
+                        "Successfully block 10 consecutive attacks in drills."
+                    ],
+                    lesson: "Blocking is a crucial aspect of defense. Focus on timing, positioning, and technique to maximize your effectiveness as a blocker.",
+                    exercises: [
+                        "Practice blocking against various types of attacks.",
+                        "Work with teammates to improve timing and coordination in blocking."
+                    ]
+                },
+                {
+                    name: "Defensive Formations",
+                    description: "Learn different defensive formations to adapt to opposing strategies.",
+                    goals: [
+                        "Implement at least 3 different defensive formations in practice matches.",
+                        "Achieve a defensive success rate of 90% while using varied formations."
+                    ],
+                    lesson: "Defensive formations can greatly influence your team's ability to respond to attacks. Understanding when to switch formations can help your team adapt and counter effectively.",
+                    exercises: [
+                        "Run drills focusing on specific defensive formations.",
+                        "Analyze past games to identify effective defensive strategies."
+                    ]
+                }
             ]
-          }
-        ]
-      },
-      {
-        name: "Defensive Strategies",
-        description: "Understand defensive tactics to counter opponents effectively.",
-        goals: [
-          "Successfully implement 5 different defensive strategies during matches.",
-          "Achieve a defensive success rate of 85% against opponent attacks."
-        ],
-        lesson: "Defensive strategies are essential for stopping the opponent's attacks. Understanding how to position yourself and your teammates is critical for successful defense.",
-        exercises: [
-          "Engage in defensive drills that focus on positioning and teamwork.",
-          "Analyze opponents' attacks to develop effective defensive responses."
-        ],
-        subskills: [
-          {
-            name: "Blocking Techniques",
-            description: "Master the techniques of effective blocking to prevent attacks.",
-            goals: [
-              "Achieve a blocking success rate of 75% during practice.",
-              "Successfully block 10 consecutive attacks in drills."
-            ],
-            lesson: "Blocking is a crucial aspect of defense. Focus on timing, positioning, and technique to maximize your effectiveness as a blocker.",
-            exercises: [
-              "Practice blocking against various types of attacks.",
-              "Work with teammates to improve timing and coordination in blocking."
-            ]
-          },
-          {
-            name: "Defensive Formations",
-            description: "Learn different defensive formations to adapt to opposing strategies.",
-            goals: [
-              "Implement at least 3 different defensive formations in practice matches.",
-              "Achieve a defensive success rate of 90% while using varied formations."
-            ],
-            lesson: "Defensive formations can greatly influence your team's ability to respond to attacks. Understanding when to switch formations can help your team adapt and counter effectively.",
-            exercises: [
-              "Run drills focusing on specific defensive formations.",
-              "Analyze past games to identify effective defensive strategies."
-            ]
-          }
-        ]
-      }
+        }
     ]
-  };
-  
+};
+
 
 const skillTreeData = {
     name: "Expert Volleyball Player",
