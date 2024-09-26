@@ -445,84 +445,84 @@ const physicalConditioningForAttacking = {
     name: "Physical Conditioning for Attacking",
     description: "Improve physical conditioning specifically for attacking in volleyball, focusing on strength, movement mechanics, and mobility to enhance performance and prevent injury.",
     goals: [
-      "Increase jump height by 10% through targeted strength and plyometric training within 8 weeks.",
-      "Improve movement efficiency and quickness to transition from approach to jump with 90% consistency during practice.",
-      "Enhance flexibility and mobility in shoulders, hips, and ankles to reduce injury risk and improve range of motion in attacks."
+        "Increase jump height by 10% through targeted strength and plyometric training within 8 weeks.",
+        "Improve movement efficiency and quickness to transition from approach to jump with 90% consistency during practice.",
+        "Enhance flexibility and mobility in shoulders, hips, and ankles to reduce injury risk and improve range of motion in attacks."
     ],
     lesson: (
-      <div>
-        <p>
-          Physical conditioning is a key element of becoming a powerful and efficient attacker. A strong attacker not only has the ability to generate force but also needs fluid, efficient movement mechanics and flexibility to perform at their best. Focus on strengthening the legs and core for explosive jumps, refining movement mechanics for a quick and stable approach, and improving mobility to allow for a full range of motion during attacks.
-        </p>
-        <h4>Key Areas of Focus:</h4>
-        <ul>
-          <li><strong>Strength Training:</strong> Build leg and core strength to increase jump height and power in spikes. This involves exercises like squats, lunges, and core stability work.</li>
-          <li><strong>Plyometrics:</strong> Use explosive exercises such as box jumps and broad jumps to improve quickness, power, and jump height.</li>
-          <li><strong>Movement Drills:</strong> Enhance agility, footwork, and balance to refine your approach and transition smoothly into the jump for spiking.</li>
-          <li><strong>Mobility and Flexibility:</strong> Focus on stretching and mobility drills for the shoulders, hips, and ankles to maintain flexibility, reduce the risk of injury, and improve range of motion for more powerful and controlled attacks.</li>
-        </ul>
-      </div>
+        <div>
+            <p>
+                Physical conditioning is a key element of becoming a powerful and efficient attacker. A strong attacker not only has the ability to generate force but also needs fluid, efficient movement mechanics and flexibility to perform at their best. Focus on strengthening the legs and core for explosive jumps, refining movement mechanics for a quick and stable approach, and improving mobility to allow for a full range of motion during attacks.
+            </p>
+            <h4>Key Areas of Focus:</h4>
+            <ul>
+                <li><strong>Strength Training:</strong> Build leg and core strength to increase jump height and power in spikes. This involves exercises like squats, lunges, and core stability work.</li>
+                <li><strong>Plyometrics:</strong> Use explosive exercises such as box jumps and broad jumps to improve quickness, power, and jump height.</li>
+                <li><strong>Movement Drills:</strong> Enhance agility, footwork, and balance to refine your approach and transition smoothly into the jump for spiking.</li>
+                <li><strong>Mobility and Flexibility:</strong> Focus on stretching and mobility drills for the shoulders, hips, and ankles to maintain flexibility, reduce the risk of injury, and improve range of motion for more powerful and controlled attacks.</li>
+            </ul>
+        </div>
     ),
-    exercises: [
-      {
-        name: "Strength and Power Exercises",
-        description: "Develop leg, core, and upper body strength to improve jumping power and overall attacking force.",
-        goals: [
-          "Increase leg strength by performing strength exercises 3 times a week for 6 weeks, with a focus on squats, lunges, and deadlifts.",
-          "Improve core stability by performing core exercises daily, including planks and rotational movements, achieving 3-minute plank holds within 6 weeks."
-        ],
-        exercises: [
-          "Perform weighted squats: 4 sets of 8 reps with challenging weight, focusing on explosive upward movement.",
-          "Lunges (with or without weights): 3 sets of 12 reps on each leg to build lower body strength and balance.",
-          "Deadlifts: 3 sets of 6-8 reps to strengthen the posterior chain (hamstrings, glutes, and lower back), improving jump height.",
-          "Core: Plank holds (3 sets of 1 minute each) and rotational core exercises like Russian twists (3 sets of 20 reps)."
-        ]
-      },
-      {
-        name: "Plyometric and Jump Training",
-        description: "Improve explosive power and jumping mechanics to increase vertical height and quickness in your approach and jump.",
-        goals: [
-          "Increase vertical jump height by 10% in 8 weeks through consistent plyometric training.",
-          "Achieve 85% efficiency in transitioning from approach to jump without loss of power during drills."
-        ],
-        exercises: [
-          "Box Jumps: 4 sets of 8 reps, focusing on jumping as high as possible and landing softly.",
-          "Broad Jumps: 3 sets of 6 reps to build explosive horizontal power for better approach speed.",
-          "Single-leg jumps: 3 sets of 10 reps per leg to develop balance and unilateral strength in jumps.",
-          "Depth Jumps: 3 sets of 6 reps to improve reaction time and explosiveness by jumping down from a box and immediately jumping back up."
-        ]
-      },
-      {
-        name: "Movement and Agility Drills",
-        description: "Enhance movement mechanics, footwork, and balance to transition smoothly from approach to jump, improving attacking efficiency.",
-        goals: [
-          "Achieve 90% consistency in footwork and approach drills without hesitation or missteps.",
-          "Increase approach speed by 15% over 6 weeks by refining movement mechanics."
-        ],
-        exercises: [
-          "Agility Ladder Drills: Perform 5 ladder runs focusing on quick, controlled steps to improve footwork in approach.",
-          "Cone Drills: Set up cones in a zig-zag pattern and sprint between them, then transition into an approach and jump for a spike.",
-          "Approach Drills: Perform 3-step or 4-step approach drills repeatedly (4 sets of 10), focusing on smooth transitions from the final step into your jump.",
-          "Balance Drills: Single-leg balance holds for 30 seconds on each leg to improve stability during the jump and landing."
-        ]
-      },
-      {
-        name: "Mobility and Stretching Routine",
-        description: "Improve flexibility in shoulders, hips, and ankles to ensure a full range of motion and prevent injury.",
-        goals: [
-          "Improve shoulder and hip flexibility, achieving full range of motion in overhead movements and leg extensions within 6 weeks.",
-          "Reduce muscle tightness and improve post-exercise recovery with daily stretching routines."
-        ],
-        exercises: [
-          "Dynamic Shoulder Stretch: Arm circles, shoulder dislocations with a resistance band (3 sets of 10), and overhead stretches.",
-          "Hip Flexor Stretch: Perform for 1 minute per side, holding a deep lunge position to stretch the hip flexors and improve mobility.",
-          "Ankle Mobility Drills: Perform ankle rotations (3 sets of 10) and calf stretches against a wall for 1 minute on each side to ensure full mobility for jumping and landing.",
-          "Hamstring Stretch: 1 minute per leg, sitting or standing, to maintain flexibility in the legs and prevent tightness."
-        ]
-      }
+    subskills: [
+        {
+            name: "Strength and Power Exercises",
+            description: "Develop leg, core, and upper body strength to improve jumping power and overall attacking force.",
+            goals: [
+                "Increase leg strength by performing strength exercises 3 times a week for 6 weeks, with a focus on squats, lunges, and deadlifts.",
+                "Improve core stability by performing core exercises daily, including planks and rotational movements, achieving 3-minute plank holds within 6 weeks."
+            ],
+            exercises: [
+                "Perform weighted squats: 4 sets of 8 reps with challenging weight, focusing on explosive upward movement.",
+                "Lunges (with or without weights): 3 sets of 12 reps on each leg to build lower body strength and balance.",
+                "Deadlifts: 3 sets of 6-8 reps to strengthen the posterior chain (hamstrings, glutes, and lower back), improving jump height.",
+                "Core: Plank holds (3 sets of 1 minute each) and rotational core exercises like Russian twists (3 sets of 20 reps)."
+            ]
+        },
+        {
+            name: "Plyometric and Jump Training",
+            description: "Improve explosive power and jumping mechanics to increase vertical height and quickness in your approach and jump.",
+            goals: [
+                "Increase vertical jump height by 10% in 8 weeks through consistent plyometric training.",
+                "Achieve 85% efficiency in transitioning from approach to jump without loss of power during drills."
+            ],
+            exercises: [
+                "Box Jumps: 4 sets of 8 reps, focusing on jumping as high as possible and landing softly.",
+                "Broad Jumps: 3 sets of 6 reps to build explosive horizontal power for better approach speed.",
+                "Single-leg jumps: 3 sets of 10 reps per leg to develop balance and unilateral strength in jumps.",
+                "Depth Jumps: 3 sets of 6 reps to improve reaction time and explosiveness by jumping down from a box and immediately jumping back up."
+            ]
+        },
+        {
+            name: "Movement and Agility Drills",
+            description: "Enhance movement mechanics, footwork, and balance to transition smoothly from approach to jump, improving attacking efficiency.",
+            goals: [
+                "Achieve 90% consistency in footwork and approach drills without hesitation or missteps.",
+                "Increase approach speed by 15% over 6 weeks by refining movement mechanics."
+            ],
+            exercises: [
+                "Agility Ladder Drills: Perform 5 ladder runs focusing on quick, controlled steps to improve footwork in approach.",
+                "Cone Drills: Set up cones in a zig-zag pattern and sprint between them, then transition into an approach and jump for a spike.",
+                "Approach Drills: Perform 3-step or 4-step approach drills repeatedly (4 sets of 10), focusing on smooth transitions from the final step into your jump.",
+                "Balance Drills: Single-leg balance holds for 30 seconds on each leg to improve stability during the jump and landing."
+            ]
+        },
+        {
+            name: "Mobility and Stretching Routine",
+            description: "Improve flexibility in shoulders, hips, and ankles to ensure a full range of motion and prevent injury.",
+            goals: [
+                "Improve shoulder and hip flexibility, achieving full range of motion in overhead movements and leg extensions within 6 weeks.",
+                "Reduce muscle tightness and improve post-exercise recovery with daily stretching routines."
+            ],
+            exercises: [
+                "Dynamic Shoulder Stretch: Arm circles, shoulder dislocations with a resistance band (3 sets of 10), and overhead stretches.",
+                "Hip Flexor Stretch: Perform for 1 minute per side, holding a deep lunge position to stretch the hip flexors and improve mobility.",
+                "Ankle Mobility Drills: Perform ankle rotations (3 sets of 10) and calf stretches against a wall for 1 minute on each side to ensure full mobility for jumping and landing.",
+                "Hamstring Stretch: 1 minute per leg, sitting or standing, to maintain flexibility in the legs and prevent tightness."
+            ]
+        }
     ]
-  };
-  
+};
+
 
 
 const expertAttacking = {
@@ -616,6 +616,402 @@ const expertAttacking = {
     ]
 };
 
+const jumpServeMastery = {
+    name: "Jump Serve Mastery",
+    description: "Master the jump serve technique to create a powerful, aggressive, and well-placed serve that challenges opponents. This skill focuses on the mechanics, decision-making, aiming, ball trajectory, and necessary physical conditioning to execute a successful jump serve.",
+    goals: [
+        "Achieve a 90% success rate in jump serves during practice with consistent power and accuracy.",
+        "Develop the ability to hit different target zones on the court with varied serve trajectories in 8 out of 10 attempts."
+    ],
+    lesson: "The jump serve is one of the most powerful serves in volleyball. It requires precision, timing, and explosive power. Mastering the jump serve involves refining the footwork, perfecting the toss, generating a fast arm swing, and ensuring proper contact with the ball to achieve a curved trajectory. Physical conditioning, such as leg strength and shoulder mobility, is also crucial for effective performance.",
+    exercises: [
+        "Practice the three-step approach for the jump serve 5 times with full focus on balance and speed.",
+        "Perform targeting drills by aiming for specific zones on the court to increase precision.",
+        "Work on explosive jumps and arm swings using plyometric exercises and resistance band drills."
+    ],
+    subskills: [
+        {
+            name: "Footwork and Approach",
+            description: "Refine your footwork and approach to generate power and maintain balance during the jump serve.",
+            goals: [
+                "Achieve 90% consistency in the three-step approach during practice.",
+                "Increase approach speed by 15% over 6 weeks, allowing for a more explosive jump."
+            ],
+            lesson: "The approach is the foundation of the jump serve. Start with a three-step approach: the first step initiates momentum, the second step increases speed, and the final step is a powerful jump. Ensure that your footwork is fluid and balanced, allowing you to transition smoothly into the jump.",
+            exercises: [
+                "Perform the three-step approach drill 10 times with a focus on proper foot placement and balance.",
+                "Run through cone drills to improve foot speed and agility before transitioning into your serve."
+            ],
+            subskills: [
+                {
+                    name: "Balance and Control",
+                    description: "Maintain balance and control during your approach to ensure accuracy and stability.",
+                    goals: [
+                        "Maintain proper balance through the approach in 9 out of 10 serves.",
+                        "Transition smoothly into the jump without losing control or momentum."
+                    ],
+                    lesson: "Keeping your body balanced as you move into your jump is key for accuracy. Ensure that your weight is distributed evenly, and focus on maintaining stability through each step.",
+                    exercises: [
+                        "Perform shadow serves without hitting the ball, focusing purely on balance during the approach.",
+                        "Record your approach and jump to analyze body control and make necessary adjustments."
+                    ]
+                }
+            ]
+        },
+        {
+            name: "Toss Consistency and Timing",
+            description: "Develop a consistent toss that allows for proper timing and powerful contact with the ball during the jump serve.",
+            goals: [
+                "Achieve a consistent toss height and placement 9 out of 10 times during drills.",
+                "Synchronize your toss with your jump, resulting in proper timing 90% of the time."
+            ],
+            lesson: "A good toss is essential for a successful jump serve. The ball should be tossed slightly in front of you, at a height that allows you to reach it at the peak of your jump. The toss should be consistent and timed perfectly with your approach to ensure a clean contact with the ball.",
+            exercises: [
+                "Practice your toss 20 times, focusing on maintaining consistent height and placement.",
+                "Perform a toss-and-jump drill, where you toss the ball and jump without hitting it, focusing on timing."
+            ],
+            subskills: [
+                {
+                    name: "Toss Height and Control",
+                    description: "Ensure that your toss is at the correct height and directly in front of your hitting shoulder.",
+                    goals: [
+                        "Achieve consistent toss height and placement in 9 out of 10 serves during practice.",
+                        "Maintain proper ball control during the toss with minimal adjustments needed."
+                    ],
+                    lesson: "The toss must be controlled and high enough for you to make contact at the top of your jump. Focus on tossing the ball slightly forward and upward to align with your approach.",
+                    exercises: [
+                        "Perform a wall-toss drill, tossing the ball against the wall to check consistency in height and distance.",
+                        "Repeat the toss-and-jump drill 15 times, focusing on consistent toss placement."
+                    ]
+                }
+            ]
+        },
+        {
+            name: "Arm Swing Mechanics and Power",
+            description: "Generate a fast and powerful arm swing to increase the speed and control of your jump serve.",
+            goals: [
+                "Increase arm swing speed by 10% over 6 weeks, measured by radar or practice drills.",
+                "Achieve 90% accuracy in contacting the ball at the highest point of your jump."
+            ],
+            lesson: "A powerful arm swing is necessary to generate speed and accuracy in a jump serve. Focus on reaching full arm extension, using a quick wrist snap, and making contact with the ball at the highest point in your jump. Ensure your arm swing is fast but controlled to prevent injury.",
+            exercises: [
+                "Perform shadow swings (without a ball) to refine arm movement and wrist snap. Repeat 4 sets of 10 reps.",
+                "Use resistance bands for arm swing training, adding resistance to build strength and speed. Perform 3 sets of 8 reps."
+            ]
+        },
+        {
+            name: "Aiming and Placement",
+            description: "Develop the ability to target specific zones on the court with your jump serve.",
+            goals: [
+                "Successfully hit designated target zones on the court 8 out of 10 times during drills.",
+                "Increase serve accuracy by 15% over 8 weeks when aiming for seams between players."
+            ],
+            lesson: "Jump serves are most effective when placed in strategic areas of the court, such as deep corners, seams between players, or weaker passers. Focus on consistent aim and precision, and adjust your targeting based on the opponent's formation.",
+            exercises: [
+                "Set up markers or cones in different zones on the court and practice hitting each target zone. Perform 4 sets of 10 serves for each zone.",
+                "Work with a coach or teammate who calls out target zones just before your serve to practice real-time adjustments."
+            ]
+        },
+        {
+            name: "Ball Trajectory and Curvature",
+            description: "Master topspin and control the ball's trajectory to create a sharp downward curve after clearing the net.",
+            goals: [
+                "Generate topspin on 90% of your serves, creating a downward curve in the trajectory.",
+                "Reduce serve height over the net by 10% to improve serve efficiency."
+            ],
+            lesson: "Creating topspin is key to getting the ball to dip quickly after it clears the net, making it more difficult for defenders to react. Focus on using a strong wrist snap and correct arm angle to ensure the ball travels over the net and drops sharply into the court.",
+            exercises: [
+                "Use video analysis to study the trajectory of your serves and identify areas for improvement.",
+                "Practice serving under a rope or string set up just above the net to train for lower, sharper serves."
+            ]
+        },
+        {
+            name: "Physical Conditioning and Mobility",
+            description: "Improve explosive power, core stability, and mobility to enhance jump serve performance and reduce injury risk.",
+            goals: [
+                "Increase vertical jump height by 10% through plyometric and strength training over 8 weeks.",
+                "Improve shoulder and hip mobility to ensure a full range of motion and reduce injury risk."
+            ],
+            lesson: "Jump serving requires strong legs for explosive jumping power, core stability for control, and shoulder mobility for a fast arm swing. Conditioning drills focus on strength, agility, and flexibility to improve performance and prevent injuries.",
+            exercises: [
+                "Perform box jumps (4 sets of 8 reps) to build explosive power in your legs.",
+                "Do shoulder mobility drills, including arm circles and resistance band stretches, to increase flexibility and prevent shoulder strain.",
+                "Complete a core stability routine with planks (3 sets of 1-minute holds) and Russian twists (3 sets of 20 reps) to strengthen your core."
+            ]
+        }
+    ]
+};
+
+const floaterServeMastery = {
+    name: "Floater Serve Mastery",
+    description: "Master the floater serve technique to deliver unpredictable, erratic serves that challenge opponents’ ability to pass. This skill focuses on mechanics, decision-making, ball trajectory control, and physical conditioning required for an effective floater serve.",
+    goals: [
+        "Achieve an 85% success rate in floater serves during practice with consistent accuracy and unpredictability.",
+        "Successfully target different zones on the court with 90% accuracy in 8 out of 10 attempts."
+    ],
+    lesson: "The floater serve is a no-spin serve that causes the ball to move unpredictably in the air. This makes it difficult for receivers to judge and pass the ball. A good floater serve requires precise technique, including a controlled toss, clean contact, and proper body positioning. It's also important to make quick decisions about where to place the serve, aiming for weak spots in the opponent's defense.",
+    exercises: [
+        "Practice serving to different zones of the court to develop accuracy and decision-making.",
+        "Perform toss drills to ensure consistency and control over the height and placement of your toss."
+    ],
+    subskills: [
+        {
+            name: "Footwork and Approach",
+            description: "Develop a consistent and controlled approach to ensure balance and power in the floater serve.",
+            goals: [
+                "Achieve 90% consistency in your two- or three-step approach during practice.",
+                "Improve approach balance and control to minimize errors during serving."
+            ],
+            lesson: "The floater serve uses a simple, controlled approach, usually involving two or three steps. Maintaining balance and control during the approach ensures that you can make accurate and powerful contact with the ball. Focus on keeping your body stable and aligning your feet to generate momentum.",
+            exercises: [
+                "Two-Step Approach Drill: Practice a controlled two-step approach without the ball, focusing on balance and maintaining body control. Perform 5 sets of 10 repetitions.",
+                "Approach and Serve Drill: Combine your approach with the floater serve to build consistency between footwork and serving mechanics. Perform 4 sets of 10 serves."
+            ],
+            subskills: [
+                {
+                    name: "Body Alignment",
+                    description: "Learn to position your body correctly during the approach to maintain balance and control.",
+                    goals: [
+                        "Maintain proper body alignment in 90% of serves during practice.",
+                        "Minimize over-rotation and misalignment during 10 consecutive serves."
+                    ],
+                    lesson: "Proper body alignment is crucial for controlling the ball during the floater serve. As you step forward, ensure that your shoulders and hips are aligned toward your target, and your feet are planted firmly to generate momentum and stability.",
+                    exercises: [
+                        "Mirror Drills: Practice serving in front of a mirror to check body alignment during the approach.",
+                        "Balance Drills: Perform balance drills, such as single-leg stands, to improve stability during the serve."
+                    ]
+                }
+            ]
+        },
+        {
+            name: "Toss and Contact Mechanics",
+            description: "Develop a consistent toss and clean contact point to ensure the ball moves without spin.",
+            goals: [
+                "Achieve a consistent toss height and placement in 9 out of 10 serves during practice.",
+                "Deliver 85% of serves with a spin-free, clean contact during drills."
+            ],
+            lesson: "The toss is a critical component of the floater serve. It should be low and consistent, landing directly in front of your hitting shoulder. The contact point is equally important—make contact with a firm, flat hand, ensuring that the ball does not spin. This clean contact creates the floating effect, making the ball's trajectory unpredictable.",
+            exercises: [
+                "Toss Practice Drill: Focus on perfecting the toss by practicing without hitting the ball. Aim for consistency in height and placement. Perform 5 sets of 10 tosses.",
+                "Wall Floater Serve Drill: Stand 5 feet from a wall and practice serving against it, focusing on making spin-free contact with the ball. Perform 4 sets of 10 serves."
+            ],
+            subskills: [
+                {
+                    name: "Contact Precision",
+                    description: "Learn to hit the ball with a firm, flat hand to create a no-spin, unpredictable trajectory.",
+                    goals: [
+                        "Achieve spin-free contact in 90% of serves during drills.",
+                        "Consistently hit the ball with a flat hand in 10 consecutive serves."
+                    ],
+                    lesson: "The key to a good floater serve is making precise contact with the ball. Aim to hit the ball in the center with a firm, flat hand. Avoid snapping your wrist or hitting with too much force, as this can add spin and reduce the floater effect.",
+                    exercises: [
+                        "Shadow Swing Drills: Perform shadow swings to practice the motion of hitting the ball with a flat hand, ensuring precision in your contact.",
+                        "Partner Floater Serve Drill: Work with a partner who returns or catches your serves. Focus on delivering spin-free serves with clean contact."
+                    ]
+                }
+            ]
+        },
+        {
+            name: "Aiming and Decision-Making",
+            description: "Develop the ability to target different zones on the court and make quick decisions about where to serve.",
+            goals: [
+                "Successfully target designated zones on the court with 90% accuracy in practice.",
+                "Increase decision-making speed when choosing serve placement in 8 out of 10 serves."
+            ],
+            lesson: "Effective floater serving isn't just about technique—it's about where you place the ball. Aim for areas of the court where the receivers are weaker, such as seams between players or short, hard-to-reach zones. Make decisions quickly based on the positioning of the opposing team's passers.",
+            exercises: [
+                "Target Zone Drill: Set up cones or targets in different zones of the court (deep corners, seams, etc.) and practice hitting each zone with your floater serve. Perform 4 sets of 10 serves.",
+                "Partner Feedback Drill: Serve to a partner who calls out target zones just before your toss, helping you practice quick decision-making and serve placement."
+            ],
+            subskills: [
+                {
+                    name: "Seam Targeting",
+                    description: "Learn to place your floater serve in the seams between players, where passing is more difficult.",
+                    goals: [
+                        "Target seams successfully in 80% of serves during practice drills.",
+                        "Increase serve accuracy in seam areas by 15% over 8 weeks."
+                    ],
+                    lesson: "A common weak spot in the opposing team’s defense is the seams between two passers. A well-placed floater serve in the seam forces communication errors and creates more difficult passing angles for the opponent.",
+                    exercises: [
+                        "Seam Targeting Drill: Practice aiming your floater serve between two cones or markers set up in seam positions on the court.",
+                        "Live Seams Drill: In a scrimmage setting, work on serving to the seams between players to increase your accuracy and decision-making."
+                    ]
+                }
+            ]
+        },
+        {
+            name: "Ball Trajectory and Float Effect",
+            description: "Master the trajectory and float effect of the serve to create unpredictable movement that confuses opponents.",
+            goals: [
+                "Create unpredictable ball movement in 85% of serves during practice.",
+                "Reduce serve height over the net by 10% while maintaining the float effect."
+            ],
+            lesson: "The floater serve works because the lack of spin causes the ball to move unpredictably. To enhance this effect, serve the ball low over the net to increase its float and drop. The less spin, the harder it will be for defenders to predict the ball's movement, making it more likely to cause passing errors.",
+            exercises: [
+                "Low Over-the-Net Drill: Set up a rope or string across the net, 12-18 inches above the net height, and practice serving under the rope to keep your serves low and unpredictable. Perform 5 sets of 10 serves.",
+                "Video Feedback Drill: Record your serves and analyze the ball's movement. Adjust your technique to reduce spin and improve the float effect."
+            ],
+            subskills: []
+        },
+        {
+            name: "Physical Conditioning and Mobility",
+            description: "Enhance shoulder strength, core stability, and mobility to support consistent floater serves and reduce the risk of injury.",
+            goals: [
+                "Increase shoulder strength and endurance through targeted exercises over 6 weeks.",
+                "Improve core stability and balance to maintain control and precision during serves."
+            ],
+            lesson: "Physical conditioning is essential for serving consistency and injury prevention. Strong shoulders and core stability help you maintain precision over long matches, while mobility exercises ensure that your serving motion is fluid and controlled. Focus on strengthening your shoulders and improving flexibility in your upper body to reduce the risk of overuse injuries.",
+            exercises: [
+                "Shoulder Presses: Perform 3 sets of 12 reps of shoulder presses to build strength for repetitive serves.",
+                "Core Stability Exercises: Perform planks (3 sets of 1 minute) and Russian twists (3 sets of 20 reps) to improve core stability, essential for maintaining control during serving.",
+                "Shoulder Mobility Drills: Incorporate daily shoulder stretches, arm circles, and wall slides to enhance mobility and prevent injury."
+            ],
+            subskills: []
+        }
+    ]
+};
+
+
+const tacticalServing = {
+    name: "Tactical Serving",
+    description: "Master the tactical elements of serving to outsmart opponents and create pressure on the receiving team. This includes reading defensive formations, targeting specific zones, and adjusting your serve based on the situation.",
+    goals: [
+        "Achieve a 90% success rate in serving based on tactical analysis during practice.",
+        "Effectively implement serving strategies in 5 practice matches with 90% accuracy."
+    ],
+    lesson: "Tactical serving is about more than just executing a powerful serve. It requires reading the opponent’s defense, identifying weak spots, and placing serves strategically to disrupt the receiving team's flow. Tactical servers adapt their serves based on the positioning and tendencies of the defense, keeping opponents on their toes.",
+    exercises: [
+        "Participate in drills focused on reading defensive formations and adjusting serve placement accordingly.",
+        "Analyze video footage of opponents to identify gaps and target zones for serving."
+    ],
+    subskills: [
+        {
+            name: "Reading Defensive Formations",
+            description: "Learn to analyze the opponent's defensive formation and adjust your serve accordingly.",
+            goals: [
+                "Identify serving opportunities based on opponent formations in 4 out of 5 practice games.",
+                "Successfully target defensive gaps with 85% accuracy during drills."
+            ],
+            lesson: "To serve effectively, it's important to recognize how the defense is set up. Look for gaps between passers or players who seem uncertain or out of position. Adjust your serve to exploit these weak spots, focusing on seams between defenders or areas of the court that are less protected.",
+            exercises: [
+                "Simulate defensive formations with teammates, practicing serves aimed at the seams between passers.",
+                "Watch game footage to analyze how top teams position their defense and learn to spot gaps."
+            ],
+            subskills: [
+                {
+                    name: "Identifying Weak Defenders",
+                    description: "Learn to recognize weaker passers and target them with strategic serves.",
+                    goals: [
+                        "Successfully target weak defenders with serves in 5 consecutive games.",
+                        "Achieve a 90% success rate in serves directed at weak passers during practice."
+                    ],
+                    lesson: "Not all defenders are equally strong passers. By observing a player's body language, footwork, or passing tendencies, you can identify weaker passers. Direct your serves to these players to increase the likelihood of disrupting the receiving team's play.",
+                    exercises: [
+                        "Participate in scrimmages with teammates or a coach simulating different defensive weaknesses. Focus on targeting those weak spots with precision.",
+                        "Analyze video of past games to identify opponents’ weaker passers and practice targeting them in your next match."
+                    ]
+                },
+                {
+                    name: "Exploiting Defensive Gaps",
+                    description: "Learn to serve into the gaps between defenders for maximum disruption.",
+                    goals: [
+                        "Serve into defensive gaps 8 out of 10 times in practice drills.",
+                        "Increase serving accuracy in targeting gaps between defenders by 10% over 6 weeks."
+                    ],
+                    lesson: "When defenders position themselves too far apart or shift to cover other areas, gaps can open up. By placing your serves into these spaces, you make it harder for defenders to communicate and respond. The key is to serve with just enough power and accuracy to take advantage of these openings.",
+                    exercises: [
+                        "Set up cones in the gaps between passers during practice and serve toward them to simulate targeting defensive gaps.",
+                        "Work with a coach or partner to simulate defenders shifting or leaving spaces open, and focus on placing serves into these gaps."
+                    ]
+                }
+            ]
+        },
+        {
+            name: "Targeting Specific Zones",
+            description: "Master the ability to serve into specific zones on the court to disrupt the opposition's game plan.",
+            goals: [
+                "Hit designated target zones on the court 85% of the time during practice.",
+                "Increase accuracy when serving to short and deep zones by 15% over 8 weeks."
+            ],
+            lesson: "A key aspect of tactical serving is the ability to consistently hit specific target zones. Whether you’re serving deep into the corners or short to the front row, targeting different areas of the court keeps your opponents guessing and forces them to adjust their positioning, creating more opportunities for errors.",
+            exercises: [
+                "Place cones or markers in different target zones on the court and practice hitting each zone with your serve. Focus on short, deep, and sideline zones.",
+                "Run drills with a coach or partner calling out target zones just before you serve to improve your ability to adjust quickly."
+            ],
+            subskills: [
+                {
+                    name: "Serving to Deep Corners",
+                    description: "Learn to place serves deep into the corners of the court, forcing defenders to cover more ground.",
+                    goals: [
+                        "Achieve 80% accuracy in serving deep to the corners during drills.",
+                        "Successfully serve to deep corners in 4 out of 5 practice matches."
+                    ],
+                    lesson: "Serving deep into the corners can put the receiving team under pressure by forcing defenders to move further than they’re comfortable with. The corners are often less well-protected, so mastering this technique can lead to easy points or poor returns.",
+                    exercises: [
+                        "Use cones or targets placed in the deep corners of the court and practice serving into those areas during drills.",
+                        "Work with a partner who simulates receiving serves in different parts of the court, focusing on serving deep into the corners."
+                    ]
+                },
+                {
+                    name: "Short and Sideline Serves",
+                    description: "Master short and sideline serves to keep defenders off balance and out of position.",
+                    goals: [
+                        "Successfully execute short or sideline serves 85% of the time during practice.",
+                        "Disrupt the opposing team’s passing formation by using short or sideline serves 5 times in a match."
+                    ],
+                    lesson: "Short serves force defenders to move quickly forward, often catching them off-guard if they’re positioned deep. Serving to the sidelines can also pull defenders out of position, leaving the middle of the court vulnerable. Both serve types require precision and control to be effective.",
+                    exercises: [
+                        "Practice serving short by aiming for zones just beyond the net, focusing on keeping the ball low and precise.",
+                        "Work on sideline serves by targeting the edges of the court, using cones or visual markers to simulate the sideline area."
+                    ]
+                }
+            ]
+        },
+        {
+            name: "Serve Variation and Decision Making",
+            description: "Learn to vary your serves and make quick decisions based on the receiving team’s positioning and tendencies.",
+            goals: [
+                "Effectively vary your serve type and placement 85% of the time during practice matches.",
+                "Make correct serve decisions based on opponent positioning in 8 out of 10 opportunities."
+            ],
+            lesson: "To be an effective tactical server, you must constantly vary your serve type and placement. Switching between float serves, jump serves, and short serves keeps opponents guessing and prevents them from getting comfortable with your serve. Decision-making comes from observing the receiving team's weaknesses and tendencies during the match.",
+            exercises: [
+                "Participate in drills where you switch between serve types (float, jump, short) while adjusting placement to different zones.",
+                "Analyze the receiving team’s setup before serving and decide which serve will be most effective for the situation."
+            ],
+            subskills: [
+                {
+                    name: "Varying Serve Types",
+                    description: "Learn to switch between different serve types to keep opponents off balance.",
+                    goals: [
+                        "Successfully alternate between float serves and jump serves with 80% accuracy during practice.",
+                        "Use at least 3 different serve types during each game to keep opponents guessing."
+                    ],
+                    lesson: "By varying between float serves, jump serves, and short serves, you disrupt the rhythm of the receiving team. Float serves are more difficult to pass because of their unpredictable movement, while jump serves come with power. Switching between these types forces defenders to constantly adjust, leading to more errors.",
+                    exercises: [
+                        "Run drills where you alternate between float serves and jump serves. Focus on maintaining accuracy and consistency with both types.",
+                        "Practice varying your serve placement along with the type, ensuring that you are not predictable to the opposing team."
+                    ]
+                },
+                {
+                    name: "Serve Decision Making",
+                    description: "Learn how to make quick, smart decisions about which serve to use based on defensive positioning.",
+                    goals: [
+                        "Make correct serve decisions based on defensive alignment in 8 out of 10 practice drills.",
+                        "Identify and exploit defensive weaknesses through serve decisions in 4 out of 5 matches."
+                    ],
+                    lesson: "Before serving, scan the receiving team’s formation. Are they positioned deep or shallow? Are they favoring one side? Use this information to decide whether to serve short, deep, or toward a specific passer. Quick, tactical decision-making is key to putting the defense in uncomfortable positions.",
+                    exercises: [
+                        "Work with a coach or partner who changes defensive formations before each serve, forcing you to quickly decide on the most effective serve.",
+                        "Analyze game footage to understand how top servers make quick decisions based on defensive setups."
+                    ]
+                }
+            ]
+        }
+    ]
+};
+
+
 
 const expertServing = {
     name: "Expert Serving",
@@ -630,241 +1026,9 @@ const expertServing = {
         "Practice serving against targets on the court to enhance precision."
     ],
     subskills: [
-        {
-            name: "Jump Serve Mastery",
-            description: "Perfect your jump serve technique.",
-            goals: [
-                "Achieve an 85% success rate on jump serves during practice matches.",
-                "Successfully execute jump serves to specific target zones 15 times consecutively."
-            ],
-            lesson: "The jump serve combines power and timing. To execute it properly, begin with a quick two-step approach, followed by a jump. Aim to hit the ball at the highest point of your jump for maximum power.",
-            exercises: [
-                "Perform approach drills focusing on your footwork 30 times.",
-                "Practice jump serves against a wall to refine power and accuracy."
-            ],
-            subskills: [
-                {
-                    name: "Approach Technique",
-                    description: "Learn how to properly approach for an effective jump serve.",
-                    goals: [
-                        "Master the two-step approach with 95% accuracy.",
-                        "Successfully execute 20 jump serves using the approach technique without errors."
-                    ],
-                    lesson: "The approach is critical for generating momentum. Focus on the sequence of your steps, ensuring you build speed while maintaining control. Your final step should set you up for a powerful jump.",
-                    exercises: [
-                        "Practice the two-step approach without a ball to build muscle memory.",
-                        "Record your approach to analyze form and timing."
-                    ],
-                    subskills: [
-                        {
-                            name: "Footwork Basics",
-                            description: "Learn the fundamentals of footwork for serving.",
-                            goals: [
-                                "Execute the two-step approach with perfect form 75 times.",
-                                "Maintain proper foot positioning during serving drills with 100% accuracy."
-                            ],
-                            lesson: "Good footwork is essential for an effective serve. Your feet should be positioned shoulder-width apart, and your approach should be quick and fluid. Focus on maintaining balance and using your legs to propel yourself upward.",
-                            exercises: [
-                                "Set up cones to practice footwork drills and navigate between them.",
-                                "Perform agility ladder drills to enhance foot speed."
-                            ]
-                        },
-                        {
-                            name: "Timing and Jump",
-                            description: "Learn the correct timing for your jump serve approach.",
-                            goals: [
-                                "Jump with proper timing on 15 consecutive serves with 90% accuracy.",
-                                "Successfully jump and contact the ball at its highest point 20 times."
-                            ],
-                            lesson: "Timing your jump with the ball toss is vital. As you toss the ball, take your steps, and jump when the ball reaches its peak. Practicing with a partner can help you gauge your timing.",
-                            exercises: [
-                                "Work with a partner to practice timing your jump with their toss.",
-                                "Use a jump trainer to improve your jumping technique."
-                            ]
-                        }
-                    ]
-                },
-                {
-                    name: "Ball Contact Technique",
-                    description: "Master the correct technique for contacting the ball during a jump serve.",
-                    goals: [
-                        "Achieve a 95% success rate on powerful, controlled serves during practice.",
-                        "Demonstrate consistent ball contact technique in 20 consecutive serves."
-                    ],
-                    lesson: "The contact point is crucial for a successful jump serve. Make sure to hit the ball with the heel of your palm while keeping your fingers spread. This technique helps in generating spin and power.",
-                    exercises: [
-                        "Practice hitting against a wall to focus on contact technique.",
-                        "Try serving into target areas to enhance accuracy."
-                    ],
-                    subskills: [
-                        {
-                            name: "Hand Positioning",
-                            description: "Focus on hand positioning during the jump serve.",
-                            goals: [
-                                "Contact the ball with correct hand positioning in 15 consecutive serves.",
-                                "Maintain 100% hand control for serving accuracy during drills."
-                            ],
-                            lesson: "Proper hand positioning helps you control the ball's direction and spin. Hold your hand like a 'w' shape, ensuring your fingers are spread and your palm is firm. This positioning allows for better control over the ball.",
-                            exercises: [
-                                "Perform wall passes focusing on your hand positioning.",
-                                "Practice serving while blindfolded to enhance feel."
-                            ]
-                        },
-                        {
-                            name: "Follow-Through Mechanics",
-                            description: "Learn the importance of follow-through after contacting the ball for maximum power.",
-                            goals: [
-                                "Achieve proper follow-through in 20 consecutive serves.",
-                                "Maintain consistency in follow-through during practice matches with 90% accuracy."
-                            ],
-                            lesson: "Your follow-through impacts the ball's trajectory and speed. After making contact, allow your arm to extend fully. A good follow-through can help prevent injuries by reducing strain.",
-                            exercises: [
-                                "Practice serving with a focus on arm extension after contact.",
-                                "Record your serves to analyze your follow-through."
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            name: "Floater Serve Mastery",
-            description: "Understand and master the tactical elements of the floater serve.",
-            goals: [
-                "Achieve a minimum of 85% success rate on floater serves in practice matches.",
-                "Successfully serve into designated target zones 15 times without error."
-            ],
-            lesson: "The floater serve is a strategic tool that relies on unpredictable movement. To execute it effectively, focus on a low toss and make contact with a flat hand to create minimal spin.",
-            exercises: [
-                "Practice serving floaters with different hand positions 20 times.",
-                "Serve against a wall to work on unpredictable ball movement."
-            ],
-            subskills: [
-                {
-                    name: "Spin Control",
-                    description: "Learn to control the spin and trajectory of your floater serve.",
-                    goals: [
-                        "Successfully serve 15 consecutive floaters with varied spins.",
-                        "Achieve at least 80% accuracy when adjusting spin based on opponent positioning."
-                    ],
-                    lesson: "Spin control is essential for effective floater serves. Use your wrist and fingers to manipulate the spin while keeping your hand flat upon contact.",
-                    exercises: [
-                        "Use a ball machine to practice spin variations on your serves.",
-                        "Challenge a teammate to receive your floaters with different spins."
-                    ],
-                    subskills: [
-                        {
-                            name: "Grip Adjustment",
-                            description: "Master different grip techniques to influence ball spin.",
-                            goals: [
-                                "Experiment with grip adjustments in 5 different practice sessions with measurable outcomes.",
-                                "Achieve consistent spin control during 15 serves in drills."
-                            ],
-                            lesson: "The grip you use can significantly influence the ball's spin and trajectory. Experiment with different grips to see how it affects your serve.",
-                            exercises: [
-                                "Record your serves with different grips to analyze outcomes.",
-                                "Practice serving against targets with varying grip techniques."
-                            ]
-                        },
-                        {
-                            name: "Targeting Strategy",
-                            description: "Learn to target specific areas of the court with your floater serve.",
-                            goals: [
-                                "Successfully serve into targeted zones 10 out of 12 times.",
-                                "Adjust targets based on the opponent’s weaknesses with 85% accuracy."
-                            ],
-                            lesson: "Targeting involves more than just hitting the ball over the net. Analyze the opponent's positioning and select your targets wisely.",
-                            exercises: [
-                                "Set up cones on the court and practice hitting those targets.",
-                                "Play games that involve only serving into specific zones."
-                            ]
-                        }
-                    ]
-                },
-                {
-                    name: "Situational Awareness",
-                    description: "Learn to analyze game situations for effective serving.",
-                    goals: [
-                        "Make tactical decisions based on game situations during 5 matches with 90% success rate.",
-                        "Adjust your serve style based on the opponent's formation in real-time."
-                    ],
-                    lesson: "Situational awareness is crucial for making smart serving decisions. Always observe your opponents' formations and adjust your serving strategy accordingly.",
-                    exercises: [
-                        "Play practice matches with a focus on analyzing opponent formations.",
-                        "Have a coach call out plays during practice to improve reaction times."
-                    ],
-                    subskills: [
-                        {
-                            name: "Reading the Opponent",
-                            description: "Learn to read opponent positioning for serving advantages.",
-                            goals: [
-                                "Identify serving opportunities during 5 games with 90% accuracy.",
-                                "Effectively serve based on opponent’s weaknesses with 80% success rate."
-                            ],
-                            lesson: "Reading your opponents involves understanding their tendencies and positioning. Look for patterns in their defense to target your serves effectively.",
-                            exercises: [
-                                "Keep a journal of opponents' weaknesses during matches.",
-                                "Discuss strategies with teammates post-game to improve awareness."
-                            ]
-                        },
-                        {
-                            name: "Pressure Situations",
-                            description: "Learn to serve effectively under pressure.",
-                            goals: [
-                                "Successfully execute serves in 5 high-pressure match situations with 85% accuracy.",
-                                "Maintain composure and accuracy during critical game points."
-                            ],
-                            lesson: "Serving under pressure requires mental strength and focus. Practice visualization techniques to prepare for high-pressure situations.",
-                            exercises: [
-                                "Create game-like scenarios in practice where you serve under pressure.",
-                                "Simulate crucial moments during drills with teammates."
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            name: "Tactical Serving",
-            description: "Master the tactical elements of serving to outsmart opponents.",
-            goals: [
-                "Achieve a 90% success rate in serving based on tactical analysis during practice.",
-                "Effectively implement serving strategies in 5 practice matches with 100% communication."
-            ],
-            lesson: "Tactical serving involves understanding when and how to serve based on the opposing team's weaknesses. Use your knowledge of the game to select the most effective serve for each situation.",
-            exercises: [
-                "Participate in tactical drills focusing on serving strategies.",
-                "Analyze video footage of opponents to identify serving opportunities."
-            ],
-            subskills: [
-                {
-                    name: "Analyzing Opponent Formations",
-                    description: "Learn to analyze the opponent's formation for serving strategies.",
-                    goals: [
-                        "Identify serving opportunities based on opponent formations during 5 games.",
-                        "Successfully adjust serving strategy based on opponent weaknesses with 90% accuracy."
-                    ],
-                    lesson: "Understanding your opponent's formation is crucial for selecting the right serve. Observe their positioning and identify potential gaps to exploit.",
-                    exercises: [
-                        "Watch game footage to analyze opponent formations.",
-                        "Discuss serving strategies with teammates based on observed formations."
-                    ]
-                },
-                {
-                    name: "Communicating with Teammates",
-                    description: "Learn to communicate effectively with teammates for strategic serving.",
-                    goals: [
-                        "Achieve 100% communication with teammates regarding serving strategies during practice.",
-                        "Successfully implement team-serving strategies in 5 matches."
-                    ],
-                    lesson: "Effective communication is key to implementing serving strategies. Use verbal and non-verbal cues to ensure your teammates are aligned with your serving plan.",
-                    exercises: [
-                        "Participate in team drills that emphasize communication.",
-                        "Use hand signals to enhance non-verbal communication during practice."
-                    ]
-                }
-            ]
-        }
+        jumpServeMastery,
+        floaterServeMastery,
+        tacticalServing
     ]
 };
 
