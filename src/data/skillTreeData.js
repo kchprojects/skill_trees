@@ -701,7 +701,353 @@ const expertPassing = {
     ]
 };
 
-
+const expertSetting = {
+    name: "Expert Setting",
+    description: "Master the setting skills required to be a top-level volleyball setter.",
+    goals: [
+      "Achieve a setting success rate of 90% during competitive drills.",
+      "Successfully complete 25 accurate sets during practice without errors."
+    ],
+    lesson: "Setting is a skill that requires precision and strategy. Focus on your hand positioning, body alignment, and timing to achieve effective sets. Good communication with your teammates is crucial for executing successful plays.",
+    exercises: [
+      "Practice setting against a wall to focus on accuracy and technique.",
+      "Use a partner to perform setting drills from different angles."
+    ],
+    subskills: [
+      {
+        name: "Hand Setting Mastery",
+        description: "Perfect your hand setting technique.",
+        goals: [
+          "Master hand setting in various situations with 90% accuracy.",
+          "Successfully set to specific targets 20 times without errors."
+        ],
+        lesson: "The key to successful hand setting lies in proper grip and release techniques. Ensure your hands are in a triangle shape and that you push the ball up rather than throwing it. Focus on follow-through and maintaining a consistent release for accurate sets.",
+        exercises: [
+          "Perform hand setting drills to build muscle memory.",
+          "Set with varying ball sizes to improve grip and control."
+        ],
+        subskills: [
+          {
+            name: "Grip and Release",
+            description: "Learn the proper grip and release techniques for setting.",
+            goals: [
+              "Achieve a consistent grip in 15 consecutive sets.",
+              "Maintain a proper release technique with 95% accuracy during practice."
+            ],
+            lesson: "Your grip should be firm yet relaxed to allow for control during the release. Make sure to catch the ball above your head and push it upward with your fingers, following through in the direction of the target.",
+            exercises: [
+              "Record your sets to analyze grip and release techniques.",
+              "Practice with a variety of balls to find your optimal grip."
+            ],
+            subskills: [
+              {
+                name: "Finger Flexibility",
+                description: "Master finger flexibility for better ball control.",
+                goals: [
+                  "Demonstrate finger flexibility during 15 sets with 100% accuracy.",
+                  "Maintain consistent touch during practice drills with 90% accuracy."
+                ],
+                lesson: "Finger flexibility is crucial for effective setting. Work on exercises that promote finger strength and flexibility, such as using a stress ball or performing finger stretches.",
+                exercises: [
+                  "Incorporate finger-strengthening exercises into your routine.",
+                  "Practice setting drills that focus on finger placement and control."
+                ]
+              },
+              {
+                name: "Follow-Through Motion",
+                description: "Learn the importance of follow-through in setting.",
+                goals: [
+                  "Achieve proper follow-through in 25 consecutive sets.",
+                  "Ensure consistency in follow-through during practice matches with 90% accuracy."
+                ],
+                lesson: "Your follow-through motion impacts the accuracy and power of your sets. After contacting the ball, allow your arms to extend towards the target.",
+                exercises: [
+                  "Perform follow-through drills focusing on arm extension.",
+                  "Set against a wall while focusing on follow-through mechanics."
+                ]
+              }
+            ]
+          },
+          {
+            name: "Height Adjustment",
+            description: "Learn to adjust setting height based on attacker needs.",
+            goals: [
+              "Successfully adjust setting height in 5 practice scenarios with 100% accuracy.",
+              "Maintain consistency in height adjustment during drills with 90% accuracy."
+            ],
+            lesson: "Adjusting the height of your sets is essential for accommodating different attackers. Pay attention to their preferences and adjust your sets accordingly.",
+            exercises: [
+              "Practice setting to varying heights in drills with partners.",
+              "Simulate game situations to practice adjusting set heights."
+            ],
+            subskills: [
+              {
+                name: "Reading Attackers",
+                description: "Learn to read attackers for optimal setting.",
+                goals: [
+                  "Identify attacker needs during 5 games with 90% accuracy.",
+                  "Successfully set based on attacker positioning 80% of the time."
+                ],
+                lesson: "Reading your attackers involves understanding their preferences and positioning. Always communicate with your teammates to determine their needs.",
+                exercises: [
+                  "Work on drills where attackers specify their set preferences.",
+                  "Watch game footage to analyze setter and attacker interactions."
+                ]
+              },
+              {
+                name: "Timing the Set",
+                description: "Learn the importance of timing in setting.",
+                goals: [
+                  "Achieve perfect timing in 15 consecutive sets with 90% accuracy.",
+                  "Maintain timing consistency during practice with minimal errors."
+                ],
+                lesson: "Timing is essential in setting. Work on synchronizing your sets with your attackers' movements. Practice setting at different speeds and angles.",
+                exercises: [
+                  "Run drills focusing on timing with specific attackers.",
+                  "Set in a fast-paced environment to improve reaction times."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "Setting Techniques",
+        description: "Master different types of sets and their appropriate uses.",
+        goals: [
+          "Successfully execute 20 different types of sets during practice.",
+          "Achieve 90% accuracy in choosing the right set type for each situation."
+        ],
+        lesson: "Different situations call for different types of sets. Understanding when to use a high set, quick set, or back-row set can make a significant impact on your team's offensive effectiveness.",
+        exercises: [
+          "Practice various setting techniques with a partner.",
+          "Engage in situational drills to improve decision-making on set types."
+        ],
+        subskills: [
+          {
+            name: "High Set",
+            description: "Learn to deliver high sets for outside hitters.",
+            goals: [
+              "Successfully complete 15 high sets in practice with 100% accuracy.",
+              "Use high sets effectively during game simulations."
+            ],
+            lesson: "High sets allow attackers to hit the ball at their highest point. Ensure your follow-through is directed upward to maximize height and accuracy.",
+            exercises: [
+              "Drill high sets with a partner focusing on precision.",
+              "Engage in high set practice while moving around the court."
+            ]
+          },
+          {
+            name: "Quick Set",
+            description: "Master the technique for quick sets to middle blockers.",
+            goals: [
+              "Achieve a 90% success rate on quick sets during drills.",
+              "Successfully execute quick sets in fast-paced game situations 10 times."
+            ],
+            lesson: "Quick sets are essential for catching the defense off guard. The ball should be set just above the net for middle attackers. Timing is critical, so practice working with your attackers to develop chemistry.",
+            exercises: [
+              "Run drills that focus on quick sets with middle attackers.",
+              "Participate in scrimmages to practice quick sets in real-time."
+            ]
+          },
+          {
+            name: "Back-Row Set",
+            description: "Learn to execute back-row sets for back-row attackers.",
+            goals: [
+              "Successfully complete 15 back-row sets in practice with 100% accuracy.",
+              "Utilize back-row sets effectively during match simulations."
+            ],
+            lesson: "Back-row sets require good timing and accuracy to allow the back-row hitter to attack effectively. Ensure the ball is set at the right height and angle for the back-row hitter to connect smoothly.",
+            exercises: [
+              "Practice back-row sets with designated back-row attackers.",
+              "Engage in situational drills that involve back-row attacks."
+            ]
+          }
+        ]
+      },
+      {
+        name: "Tactical Setting",
+        description: "Understand the tactical elements of setting for effective play.",
+        goals: [
+          "Achieve a setting success rate of 90% based on tactical analysis during practice.",
+          "Implement strategic setting decisions during 5 practice matches with 100% communication."
+        ],
+        lesson: "Tactical setting involves understanding when and how to set based on the opposing team's weaknesses. Use your knowledge of the game to select the most effective set for each situation.",
+        exercises: [
+          "Participate in tactical drills focusing on setting strategies.",
+          "Analyze video footage of opponents to identify setting opportunities."
+        ],
+        subskills: [
+          {
+            name: "Analyzing Opponent Formations",
+            description: "Learn to analyze the opponent's formation for setting strategies.",
+            goals: [
+              "Identify setting opportunities based on opponent formations during 5 games.",
+              "Successfully adjust setting strategy based on opponent weaknesses with 90% accuracy."
+            ],
+            lesson: "Understanding your opponent's formation is crucial for selecting the right set. Observe their positioning to identify potential gaps to exploit.",
+            exercises: [
+              "Watch game footage to analyze opponent formations.",
+              "Discuss setting strategies with teammates based on observed formations."
+            ]
+          },
+          {
+            name: "Communicating with Teammates",
+            description: "Learn to communicate effectively with teammates for strategic setting.",
+            goals: [
+              "Achieve 100% communication with teammates regarding setting strategies during practice.",
+              "Successfully implement team-setting strategies in 5 matches."
+            ],
+            lesson: "Effective communication is key to implementing setting strategies. Use verbal and non-verbal cues to ensure your teammates are aligned with your setting plan.",
+            exercises: [
+              "Participate in team drills that emphasize communication.",
+              "Use hand signals to enhance non-verbal communication during practice."
+            ]
+          }
+        ]
+      }
+    ]
+  };
+  
+  const expertGameTactics = {
+    name: "Expert Game Tactics",
+    description: "Master the tactical elements of volleyball to outsmart opponents and maximize team performance.",
+    goals: [
+      "Demonstrate a strategic understanding of game situations with 90% accuracy during practice.",
+      "Effectively implement tactical adjustments in 5 practice matches."
+    ],
+    lesson: "Understanding game tactics is crucial for both individual and team success. This involves recognizing patterns in the opponent's play, adjusting your strategies accordingly, and making informed decisions during the game.",
+    exercises: [
+      "Analyze video footage of past games to identify tactical opportunities.",
+      "Participate in strategy discussions with teammates before and after matches."
+    ],
+    subskills: [
+      {
+        name: "Reading the Game",
+        description: "Learn to analyze the flow of the game and anticipate opponents' moves.",
+        goals: [
+          "Successfully predict opponents' plays in 5 consecutive games.",
+          "Adjust your positioning based on game flow with 90% accuracy."
+        ],
+        lesson: "Reading the game involves observing player movements, formations, and the ball's trajectory. This awareness allows you to anticipate plays and react quickly.",
+        exercises: [
+          "Engage in drills that simulate game situations to improve reading skills.",
+          "Watch live games and analyze players' movements and decisions."
+        ],
+        subskills: [
+          {
+            name: "Opponent Analysis",
+            description: "Study the strengths and weaknesses of opposing players and teams.",
+            goals: [
+              "Identify at least 3 key weaknesses of each opponent before matches.",
+              "Adjust your play based on opponent analysis in 90% of practice matches."
+            ],
+            lesson: "Understanding your opponent's capabilities allows you to exploit their weaknesses. Pay attention to player tendencies, preferred plays, and defensive structures.",
+            exercises: [
+              "Create scouting reports for upcoming teams based on past performances.",
+              "Discuss tactics with teammates focused on opponent analysis."
+            ]
+          },
+          {
+            name: "Situational Awareness",
+            description: "Develop an understanding of how to respond to different game scenarios.",
+            goals: [
+              "Make strategic decisions based on game situations with 90% effectiveness.",
+              "Successfully execute tactical adjustments in 5 different match scenarios."
+            ],
+            lesson: "Situational awareness involves recognizing the context of the game, such as the score, time remaining, and the strengths of both your team and the opponents. Use this information to make informed decisions.",
+            exercises: [
+              "Participate in scrimmages that simulate various game situations.",
+              "Work with a coach to develop strategies for different scenarios."
+            ]
+          }
+        ]
+      },
+      {
+        name: "Offensive Strategies",
+        description: "Master different offensive plays and formations to create scoring opportunities.",
+        goals: [
+          "Successfully implement 5 different offensive strategies during matches.",
+          "Achieve a scoring success rate of 85% using offensive tactics."
+        ],
+        lesson: "Effective offensive strategies are essential for outsmarting the opponent. Understand how to utilize various formations and plays to create opportunities for your hitters.",
+        exercises: [
+          "Run drills focusing on specific offensive plays and formations.",
+          "Analyze successful offensive plays from past games."
+        ],
+        subskills: [
+          {
+            name: "Formation Strategies",
+            description: "Learn to use different formations to enhance offensive effectiveness.",
+            goals: [
+              "Implement at least 3 different formations in practice matches.",
+              "Achieve a scoring success rate of 90% while using varied formations."
+            ],
+            lesson: "Different formations can provide advantages based on the opponents’ defensive setup. Experiment with various formations to see which works best for your team.",
+            exercises: [
+              "Practice switching between formations during drills.",
+              "Create formation charts to visualize strategies."
+            ]
+          },
+          {
+            name: "Play Calling",
+            description: "Develop the ability to call plays effectively during games.",
+            goals: [
+              "Successfully call plays in 90% of practice matches.",
+              "Ensure all teammates understand and execute called plays effectively."
+            ],
+            lesson: "Play calling requires quick thinking and clear communication. Ensure that all players understand the terminology and their roles within the play.",
+            exercises: [
+              "Practice calling plays during scrimmages.",
+              "Discuss play calling strategies with your team."
+            ]
+          }
+        ]
+      },
+      {
+        name: "Defensive Strategies",
+        description: "Understand defensive tactics to counter opponents effectively.",
+        goals: [
+          "Successfully implement 5 different defensive strategies during matches.",
+          "Achieve a defensive success rate of 85% against opponent attacks."
+        ],
+        lesson: "Defensive strategies are essential for stopping the opponent's attacks. Understanding how to position yourself and your teammates is critical for successful defense.",
+        exercises: [
+          "Engage in defensive drills that focus on positioning and teamwork.",
+          "Analyze opponents' attacks to develop effective defensive responses."
+        ],
+        subskills: [
+          {
+            name: "Blocking Techniques",
+            description: "Master the techniques of effective blocking to prevent attacks.",
+            goals: [
+              "Achieve a blocking success rate of 75% during practice.",
+              "Successfully block 10 consecutive attacks in drills."
+            ],
+            lesson: "Blocking is a crucial aspect of defense. Focus on timing, positioning, and technique to maximize your effectiveness as a blocker.",
+            exercises: [
+              "Practice blocking against various types of attacks.",
+              "Work with teammates to improve timing and coordination in blocking."
+            ]
+          },
+          {
+            name: "Defensive Formations",
+            description: "Learn different defensive formations to adapt to opposing strategies.",
+            goals: [
+              "Implement at least 3 different defensive formations in practice matches.",
+              "Achieve a defensive success rate of 90% while using varied formations."
+            ],
+            lesson: "Defensive formations can greatly influence your team's ability to respond to attacks. Understanding when to switch formations can help your team adapt and counter effectively.",
+            exercises: [
+              "Run drills focusing on specific defensive formations.",
+              "Analyze past games to identify effective defensive strategies."
+            ]
+          }
+        ]
+      }
+    ]
+  };
+  
 
 const skillTreeData = {
     name: "Expert Volleyball Player",
@@ -711,211 +1057,8 @@ const skillTreeData = {
         expertAttacking,
         expertServing,
         expertPassing,
-        {
-            name: "Expert Setting",
-            description: "Master the setting skills required to be a top-level volleyball setter.",
-            goals: [
-                "Achieve a setting success rate of 90% during competitive drills.",
-                "Successfully complete 25 accurate sets during practice without errors."
-            ],
-            lesson: "Setting is a skill that requires precision and strategy. Focus on your hand positioning and body alignment to achieve effective sets. Position your hands above your forehead with your fingers spread wide. Always keep your eyes on the ball and the hitter to ensure accurate delivery.",
-            exercises: [
-                "Practice setting against a wall to focus on accuracy and technique.",
-                "Use a partner to perform setting drills from different angles."
-            ],
-            subskills: [
-                {
-                    name: "Hand Setting Mastery",
-                    description: "Perfect your hand setting technique.",
-                    goals: [
-                        "Master hand setting in various situations with 90% accuracy.",
-                        "Successfully set to specific targets 20 times without errors."
-                    ],
-                    lesson: "The key to successful hand setting lies in proper grip and release techniques. Ensure that your hands are in a triangle shape and that you push the ball up rather than throwing it. Focus on follow-through and maintaining a consistent release for accurate sets.",
-                    exercises: [
-                        "Perform hand setting drills to build muscle memory.",
-                        "Set with varying ball sizes to improve grip and control."
-                    ],
-                    subskills: [
-                        {
-                            name: "Grip and Release",
-                            description: "Learn the proper grip and release techniques for setting.",
-                            goals: [
-                                "Achieve a consistent grip in 15 consecutive sets.",
-                                "Maintain a proper release technique with 95% accuracy during practice."
-                            ],
-                            lesson: "Your grip should be firm yet relaxed to allow for control during the release. Make sure to catch the ball above your head and push it upward with your fingers, following through in the direction of the target. Consistency in your grip will enhance your overall setting accuracy.",
-                            exercises: [
-                                "Record your sets to analyze grip and release techniques.",
-                                "Practice with a variety of balls to find your optimal grip."
-                            ],
-                            subskills: [
-                                {
-                                    name: "Finger Flexibility",
-                                    description: "Master finger flexibility for better ball control.",
-                                    goals: [
-                                        "Demonstrate finger flexibility during 15 sets with 100% accuracy.",
-                                        "Maintain consistent touch during practice drills with 90% accuracy."
-                                    ],
-                                    lesson: "Finger flexibility is crucial for effective setting. Work on exercises that promote finger strength and flexibility, such as using a stress ball or performing finger stretches. This will improve your overall control and touch when setting.",
-                                    exercises: [
-                                        "Incorporate finger-strengthening exercises into your routine.",
-                                        "Practice setting drills that focus on finger placement and control."
-                                    ]
-                                },
-                                {
-                                    name: "Follow-Through Motion",
-                                    description: "Learn the importance of follow-through in setting.",
-                                    goals: [
-                                        "Achieve proper follow-through in 25 consecutive sets.",
-                                        "Ensure consistency in follow-through during practice matches with 90% accuracy."
-                                    ],
-                                    lesson: "Your follow-through motion impacts the accuracy and power of your sets. After contacting the ball, extend your arms and hands toward your target. A strong follow-through allows for better control and reduces the risk of injury.",
-                                    exercises: [
-                                        "Perform follow-through drills focusing on arm extension.",
-                                        "Set against a wall while focusing on follow-through mechanics."
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            name: "Height Adjustment",
-                            description: "Learn to adjust setting height based on attacker needs.",
-                            goals: [
-                                "Successfully adjust setting height in 5 practice scenarios with 100% accuracy.",
-                                "Maintain consistency in height adjustment during drills with 90% accuracy."
-                            ],
-                            lesson: "Adjusting the height of your sets is essential for accommodating different attackers. Pay attention to their preferences and adjust your sets accordingly. A higher set is ideal for power hitters, while a lower set may benefit quick attackers.",
-                            exercises: [
-                                "Practice setting to varying heights in drills with partners.",
-                                "Simulate game situations to practice adjusting set heights."
-                            ],
-                            subskills: [
-                                {
-                                    name: "Reading Attackers",
-                                    description: "Learn to read attackers for optimal setting.",
-                                    goals: [
-                                        "Identify attacker needs during 5 games with 90% accuracy.",
-                                        "Successfully set based on attacker positioning 80% of the time."
-                                    ],
-                                    lesson: "Reading your attackers involves understanding their preferences and positioning. Always communicate with your teammates to determine their needs, and adjust your sets accordingly. Effective communication will enhance your team's performance.",
-                                    exercises: [
-                                        "Work on drills where attackers specify their set preferences.",
-                                        "Watch game footage to analyze setter and attacker interactions."
-                                    ]
-                                },
-                                {
-                                    name: "Timing the Set",
-                                    description: "Learn the importance of timing in setting.",
-                                    goals: [
-                                        "Achieve perfect timing in 15 consecutive sets with 90% accuracy.",
-                                        "Maintain timing consistency during practice with minimal errors."
-                                    ],
-                                    lesson: "Timing is essential in setting. Work on synchronizing your sets with your attackers' movements. Practice setting at different speeds and angles to build muscle memory for optimal timing.",
-                                    exercises: [
-                                        "Run drills focusing on timing with specific attackers.",
-                                        "Set in a fast-paced environment to improve reaction times."
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    name: "Tactical Setting Mastery",
-                    description: "Understand and master the tactical elements of setting.",
-                    goals: [
-                        "Master tactical setting techniques with 90% effectiveness during practices.",
-                        "Successfully implement strategies during 5 practice matches with 100% communication."
-                    ],
-                    lesson: "Tactical setting involves strategic decision-making based on game dynamics. Always be aware of the court layout, including the positions of defenders and attackers. Use your setting skills to create mismatches and exploit the opponent's weaknesses.",
-                    exercises: [
-                        "Participate in tactical drills that require decision-making.",
-                        "Analyze game scenarios and practice setting under varying conditions."
-                    ],
-                    subskills: [
-                        {
-                            name: "Reading the Defense",
-                            description: "Learn to read the opposing team's defense for effective setting.",
-                            goals: [
-                                "Successfully read the defense in 5 matches with 90% accuracy.",
-                                "Adjust sets based on defensive positioning in 90% of attempts."
-                            ],
-                            lesson: "Reading the defense involves analyzing their movements and positioning. Pay attention to which blockers are jumping and where the gaps are. Adjust your sets to take advantage of these openings, which can lead to successful plays.",
-                            subskills: [
-                                {
-                                    name: "Identifying Defensive Weaknesses",
-                                    description: "Learn to spot defensive weaknesses for optimal sets.",
-                                    goals: [
-                                        "Successfully target defensive weaknesses in 4 games.",
-                                        "Track and identify defensive setups during practice drills with 100% accuracy."
-                                    ],
-                                    lesson: "Identifying defensive weaknesses is key to effective setting. Observe where the defenders are positioned and look for gaps. This skill improves with practice and experience, allowing you to make quick decisions during games.",
-                                    exercises: [
-                                        "Participate in drills that focus on recognizing defensive formations.",
-                                        "Watch game footage to analyze how successful setters read defenses."
-                                    ]
-                                },
-                                {
-                                    name: "Creating Mismatches",
-                                    description: "Learn to create mismatches through effective setting.",
-                                    goals: [
-                                        "Set up 15 successful mismatches during practice with 100% execution.",
-                                        "Adjust sets based on mismatches in real-time with 90% accuracy."
-                                    ],
-                                    lesson: "Creating mismatches involves setting the ball to attackers in advantageous positions. Identify which hitters can exploit the defense and adjust your sets accordingly. This requires good communication and awareness on the court.",
-                                    exercises: [
-                                        "Run drills that simulate mismatches and how to exploit them.",
-                                        "Practice setting to specific attackers based on game scenarios."
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            name: "Offensive Strategy Implementation",
-                            description: "Learn to implement offensive strategies through setting.",
-                            goals: [
-                                "Successfully implement strategies during 5 practice matches with 100% communication.",
-                                "Achieve 90% accuracy in setting based on real-time game situations."
-                            ],
-                            lesson: "Implementing offensive strategies requires good communication and teamwork. Discuss strategies with your teammates before the game, and adjust them based on the flow of play. Being adaptable will enhance your effectiveness as a setter.",
-                            exercises: [
-                                "Conduct team meetings to discuss offensive strategies.",
-                                "Participate in scrimmages focusing on executing set plays."
-                            ],
-                            subskills: [
-                                {
-                                    name: "Coordinating Attacks",
-                                    description: "Learn to coordinate attacks with setters and hitters.",
-                                    goals: [
-                                        "Achieve successful attack coordination during 15 drills with 100% communication.",
-                                        "Maintain awareness of attack patterns during 5 practice matches."
-                                    ],
-                                    lesson: "Coordinating attacks involves clear communication and timing. Work closely with your hitters to ensure they are ready for the ball. Use hand signals or verbal cues to indicate your intentions.",
-                                    exercises: [
-                                        "Set up drills that require hitters to respond to your sets.",
-                                        "Simulate game situations where quick communication is crucial."
-                                    ]
-                                },
-                                {
-                                    name: "Setting Variety",
-                                    description: "Learn to vary sets based on game situations.",
-                                    goals: [
-                                        "Implement varied setting techniques in 5 games with 100% success.",
-                                        "Adjust setting styles based on defensive formations with 90% accuracy."
-                                    ],
-                                    lesson: "Varying your setting techniques keeps the defense guessing. Practice different types of sets, such as quick sets, high balls, and back-row sets. Being versatile in your setting style will enhance your effectiveness on the court.",
-                                    exercises: [
-                                        "Run drills that focus on practicing different types of sets.",
-                                        "Incorporate variety in scrimmages to challenge the defense."
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        }
+        expertSetting,
+        expertGameTactics
     ]
 
 };
